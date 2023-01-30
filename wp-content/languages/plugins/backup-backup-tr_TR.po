@@ -1,0 +1,3260 @@
+# Translation of Plugins - Backup Migration - Stable (latest release) in Turkish
+# This file is distributed under the same license as the Plugins - Backup Migration - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-17 13:47:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - Backup Migration - Stable (latest release)\n"
+
+#: includes/dashboard/chapter/other_config.php:367
+msgid "Remove existing plugins and themes before migration."
+msgstr "Taşıma öncesinde var olan eklentileri ve temaları kaldırın."
+
+#: includes/dashboard/chapter/other_config.php:376
+msgid "Database import/export settings"
+msgstr "Veritabanı içe aktarım/dışa aktarım ayarları"
+
+#: includes/extracter/extract.php:859
+msgid "Moving current themes and plugins."
+msgstr "Mevcut temalar ve eklentiler taşınıyor."
+
+#: includes/dashboard/chapter/other_config.php:20
+msgid "Advanced details: It will remove all plugins (excluding backup migration) and themes before performing migration. These files during migration will be kept in directory wp-content/backup-migration/clean-ups. If you want to keep them after migration you can use wp-config.php constant BMI_KEEP_CLEANUPS set to TRUE."
+msgstr "İleri seviye detaylar: Geri yükleme/taşıma işlemi öncesinde (bu eklenti de dahil) tüm eklentileri ve temaları kaldıracaktır. Taşıma esnasında bu dosyalar, wp-content/backup-migration/clean-ups dizininde tutulacaktır. Taşıma sonrasında bu dosyaları tutmak istiyorsanız, wp-config.php sabiti BMI_KEEP_CLEANUPS fonksiyonunu TRUE olarak ayarlayabilirsiniz."
+
+#: includes/dashboard/chapter/other_config.php:437
+msgid "Deprecated: Force the plugin to backup all tables into one file."
+msgstr "Artık kullanılmayan: Eklentiyi, tüm tablolarını tek dosyaya yedeklemeye zorla."
+
+#: includes/extracter/extract.php:897
+msgid "Themes and plugins moved to safe directory."
+msgstr "Temalar ve eklentiler güvenli dizine taşındı."
+
+#: includes/extracter/extract.php:909
+msgid "Restoring moved themes and plugins."
+msgstr "Taşınmış temalar ve eklentiler geri yükleniyor."
+
+#: includes/extracter/extract.php:961
+msgid "Removing old plugins and themes moved before restoration."
+msgstr "Geri yükleme öncesinde taşınmış eski eklentiler ve temalar siliniyor."
+
+#: includes/zipper/src/zip.php:120
+msgid "Making single-file database backup (using deprecated engine, due to used settings)"
+msgstr "Tek-dosyalı veritabanı yedeklemesi oluşturuluyor (Yapılan ayarlar sebebiyle, eski motor kullanılıyor)"
+
+#: includes/dashboard/chapter/other_config.php:19
+msgid "It will force to use V1 engine (first export function of this plugin), it is usually much quicker but search & replace may not work well for recursively santisized data - but may be recommended for not complex sites."
+msgstr "İşlemde V1 motoru (bu eklentinin ilk dışa aktarım fonksiyonu) kullanılacaktır, genelde daha hızlı bir motordur fakat arama & değiştirme fonksiyonu, devamlı ayıklanan verilere yönelik düzgünce çalışmayabilir - ama karmaşık olmayan siteler için önerilebilir."
+
+#: includes/ajax.php:562 includes/ajax.php:1057
+msgid "MySQL Version: "
+msgstr "MySQL Sürümü:"
+
+#: includes/ajax.php:563 includes/ajax.php:1058
+msgid "MySQL Max Length: "
+msgstr "MySQL Maksimum Uzunluk:"
+
+#: includes/constants.php:146
+msgid "check it out"
+msgstr "bir göz atın"
+
+#: includes/dashboard/chapter/other_config.php:419
+msgid "Restoration: Perform new Search & Replace after database import."
+msgstr "Geri Yükleme: Veritabanı içe aktarımı akabinde yeni bir Arama & Yenileme uygulayın."
+
+#: includes/dashboard/translations.php:15
+msgid "Red tables"
+msgstr "Kırmızı tablolar"
+
+#: includes/dashboard/translations.php:14
+msgid "Currently you excluded"
+msgstr "An itibariyle hariç tuttuklarınız:"
+
+#: includes/dashboard/translations.php:16
+msgid "makred with star* are part of WordPress core, exclude them only if youre 100% sure what you are doing."
+msgstr "yıldız* ile işaretlenenler WordPress'e aittir, yalnızca ne yaptığınızdan %100 eminseniz hariç tutunuz."
+
+#: includes/dashboard/translations.php:17
+msgid "Blue tables"
+msgstr "Mavi tablolar"
+
+#: includes/dashboard/translations.php:18
+msgid "are related to your WordPress instance, most of them are related to your plugins."
+msgstr "sizin WordPress kurulumunuz ile ilintilidir, çoğunluğu sizin eklentileriniz ile ilintilidir."
+
+#: includes/dashboard/translations.php:19
+msgid "If you see any black table here, it's recommended to exclude them."
+msgstr "Eğer herhangi bir siyah tablo görürseniz, hariç tutulmalarını önermekteyiz."
+
+#: includes/dashboard/translations.php:20
+msgid "Hint: Hold shift+click to selece many tables at once."
+msgstr "Tüyo: Shift'e basılı tutup tıklama yaparak birden fazla tabloyu tek seferde seçebilirsiniz."
+
+#: includes/dashboard/translations.php:21
+msgid "out of %s tables."
+msgstr "%s tablodan."
+
+#: includes/dashboard/translations.php:22
+msgid "In total you save %s MB."
+msgstr "Toplamda %s MB tasarruf etmektesiniz."
+
+#: includes/dashboard/translations.php:23
+msgid "rows"
+msgstr "satırlar"
+
+#: includes/dashboard/translations.php:39
+msgid "Pro feature:"
+msgstr "Pro sürüm özelliği:"
+
+#: includes/database/better-backup-v3.php:182
+#: includes/database/better-backup.php:160
+msgid "Excluding %s table from backup (due to exclusion rules)."
+msgstr "Yedeklemeden %s adet tabloyu hariç tutma (hariç tutma kuralları sebebiyle)."
+
+#: includes/database/even-better-restore-v3.php:170
+#: includes/database/even-better-restore-v4.php:170
+msgid "Started restoration of %table_name% %total_tables% table"
+msgstr "%table_name% %total_tables% tablosunun geri yüklenmesi başladı"
+
+#: includes/database/even-better-restore-v3.php:214
+#: includes/database/even-better-restore-v4.php:203
+msgid "Progress of %table_name%: %progress%"
+msgstr "%table_name% ilerleme yüzdesi: %progress%"
+
+#: includes/database/even-better-restore-v3.php:269
+#: includes/database/even-better-restore-v4.php:262
+msgid "Table %table_name% restoration took %time% seconds"
+msgstr "%table_name% tablosunun geri yüklemesi %time% saniye sürdü"
+
+#: includes/database/even-better-restore-v3.php:300
+#: includes/database/even-better-restore-v4.php:293
+msgid "Performing table replacement"
+msgstr "Tablo değişimi uygulanıyor"
+
+#: includes/database/even-better-restore-v3.php:311
+#: includes/database/even-better-restore-v4.php:304
+msgid "Table %old% renamed to %new%"
+msgstr "%old% ismi, %new% olarak değiştirildi"
+
+#: includes/database/even-better-restore-v3.php:319
+#: includes/database/even-better-restore-v4.php:312
+msgid "All tables replaced"
+msgstr "Tüm tablolar güncellendi"
+
+#: includes/database/even-better-restore-v3.php:368
+#: includes/database/even-better-restore-v4.php:361
+msgid "This backup was made on the same site, ommiting search & replace."
+msgstr "Bu yedekleme aynı sitede oluşturuldu, arama & değiştirme işlemi atlanıyor."
+
+#: includes/database/even-better-restore-v3.php:362
+#: includes/database/even-better-restore-v4.php:355
+msgid "Performing Search & Replace"
+msgstr "Arama & Değiştirme uygulanıyor"
+
+#: includes/database/even-better-restore-v3.php:351
+#: includes/database/even-better-restore-v4.php:344
+msgid "Search & Replace finished successfully."
+msgstr "Arama & Değiştirme işlemi başarıyla tamamlandı."
+
+#: includes/database/even-better-restore-v3.php:638
+#: includes/database/even-better-restore-v4.php:637
+msgid "Enabling plugins included in the backup"
+msgstr "Yedeklemede yer alan eklentiler etkinleştiriliyor"
+
+#: includes/database/even-better-restore-v3.php:646
+#: includes/database/even-better-restore-v4.php:645
+msgid "Plugin %plugin_name% enabled successfully."
+msgstr "%plugin_name% eklentisi başarıyla etkinleştirildi."
+
+#: includes/database/even-better-restore-v3.php:647
+#: includes/database/even-better-restore-v4.php:646
+msgid "Failed to enable plugin %plugin_name%, trying to not end at fatal error..."
+msgstr "%plugin_name% eklentisinin etkinleştirilmesi başarısız oldu, fatal error ile sonuçlanmaması için çabalıyoruz..."
+
+#: includes/database/even-better-restore-v3.php:690
+#: includes/database/even-better-restore-v4.php:689
+msgid "All plugins enabled, you are ready to go :)"
+msgstr "Tüm eklentiler etkinleştirildi, kullanıma hazır :)"
+
+#: includes/extracter/extract.php:1387
+msgid "Splitting process is disabled because v3 restore engine is enabled."
+msgstr "Bölme işlemi etkisizleştirildi, çünkü V3 geri yükleme motoru etkin."
+
+#: includes/database/even-better-restore-v3.php:821
+#: includes/database/even-better-restore-v4.php:785
+#: includes/database/smart-sort.php:734
+msgid "Cleaning up contents of %s table."
+msgstr "%s tablosunun içeriği temizleniyor."
+
+#: includes/extracter/extract.php:1293
+msgid "Backup Migration version used for that backup: "
+msgstr "Bu yedekleme için kullanılan Backup Migration sürümü:"
+
+#: includes/extracter/extract.php:1295 includes/extracter/extract.php:1300
+#: includes/extracter/extract.php:1304
+msgid "Backup was made with unknown version of Backup Migration plugin."
+msgstr "Yedekleme bilinmeyen bir Backup Migration sürümünde yapılmış."
+
+#: includes/extracter/extract.php:1412
+msgid "Max rows per query (source site): "
+msgstr "Her sorgu için maksimum satır (ana site):"
+
+#: includes/extracter/extract.php:1414 includes/extracter/extract.php:1419
+#: includes/extracter/extract.php:1423
+msgid "Unknown query output value of backup file, maybe it was made before v1.1.7"
+msgstr "Yedeklemenin sorgu çıktısı değeri bilinmiyor, yedekleme v1.1.7'den önce oluşturulmuş olabilir."
+
+#: includes/initializer.php:593
+msgid "Disallowing to send mail as today we already sent one."
+msgstr "Bugün halihazırda göndermiş olduğumuz için, ileti gönderimine izin verilmiyor."
+
+#: includes/ajax.php:561 includes/ajax.php:1056
+msgid "WP Version: "
+msgstr "WP Sürümü:"
+
+#: includes/ajax.php:572 includes/extracter/extract.php:1406
+msgid "Max rows per query (this site): "
+msgstr "Her sorgu için maksimum satır (bu site için):"
+
+#: includes/ajax.php:1074
+msgid "Restore process initialized successfully."
+msgstr "Geri yükleme işlemi başarıyla sonlandırıldı."
+
+#: includes/ajax.php:1516
+msgid "The value for query amount cannot be smaller than 15."
+msgstr "Sorgu miktarı değeri 15'ten az olamaz."
+
+#: includes/ajax.php:1517
+msgid "The value for query amount cannot be larger than 15000."
+msgstr "Sorgu miktarı değeri 15000'den fazla olamaz."
+
+#: includes/dashboard/chapter/other_config.php:18
+msgid "This will split the SQL files (before migration or restore) into parts, which should make the process more stable and also allows to track the progress more precisely."
+msgstr "Bu (taşıma veya geri yükleme öncesinde) SQL dosyalarını bölecektir, bu sayede işlem daha dengeli ilerleyecek ve ilerlemeyi daha isabetli takip edecektir."
+
+#: includes/dashboard/chapter/other_config.php:380
+msgid "Adjust queries amount per batch for your "
+msgstr "Veritabanınız için grup başına düşen sorgu miktarını"
+
+#: includes/dashboard/chapter/other_config.php:380
+msgid "database"
+msgstr "ayarlayın"
+
+#: includes/dashboard/chapter/other_config.php:387
+msgid "Queries per batch for import/export: "
+msgstr "İçe/dışa aktarım için grup başına düşen sorgu:"
+
+#: includes/dashboard/chapter/other_config.php:412
+msgid "Enable SQL-Splitting for migration process."
+msgstr "Taşıma işlemi için SQL-Bölmeyi etkinleştirin."
+
+#: includes/dashboard/chapter/troubleshooting.php:210
+msgid "Backup/restore process issues"
+msgstr "Yedekleme/geri yükleme işlemi sorunları"
+
+#: includes/dashboard/chapter/troubleshooting.php:214
+msgid "If you are sure the backup process is not running but you can't run it: "
+msgstr "Eğer yedekleme işleminin çalışmadığından eminseniz ama çalıştıramıyorsanız:"
+
+#: includes/dashboard/chapter/troubleshooting.php:216
+msgid "Force the process to stop."
+msgstr "İşlemi durdurun."
+
+#: includes/dashboard/chapter/troubleshooting.php:219
+msgid "If you are sure the restore process is not running but you can't run it: "
+msgstr "Eğer geri yükleme işleminin çalışmadığından eminseniz ama çalıştıramıyorsanız:"
+
+#: includes/dashboard/chapter/troubleshooting.php:221
+msgid "Force the restoration to stop."
+msgstr "Geri yüklemeyi durdurun."
+
+#: includes/dashboard/chapter/troubleshooting.php:224
+msgid "* If the process is still running after killing, that means it probably still running (for real), wait a bit for it to fail then."
+msgstr "* Eğer işlem tamamiyle durdurulduktan sonra halen çalışmaya devam ediyorsa, halen çalışıyor anlamına gelmektedir (cidden), başarısız sonucu için biraz bekleyin."
+
+#: includes/dashboard/translations.php:156
+msgid "We could not stop the process due to some issues on your server (maybe file permissions)."
+msgstr "Sunucunuzdaki bazı sorunlardan ötürü işlemi durduramadık (belki de dosya izinlerinden dolayı)."
+
+#: includes/dashboard/translations.php:159
+msgid "Stopping the process, it will be confirmed..."
+msgstr "İşlem durduruluyor, doğrulanacaktır..."
+
+#: includes/dashboard/translations.php:162
+msgid "The process should be stopped now."
+msgstr "İşlem şimdi durmuş olmalı."
+
+#: includes/database/better-restore.php:362
+msgid "Switching tables to new ones and removing old ones."
+msgstr "Tablolar yenileriyle değiştiriliyor ve eski olanlar kaldırılıyor."
+
+#: includes/database/better-restore.php:374
+msgid "Tables replaced successfully."
+msgstr "Tablolar başarıyla değiştirildi."
+
+#: includes/database/smart-sort.php:358
+msgid "Finished %progress%: %filename% table, total of %parts% parts."
+msgstr "%İşlem% tamamlandı: %filename% tablosu, toplamda %parts% parça."
+
+#: includes/database/smart-sort.php:405
+msgid "Starting conversion of: %s table."
+msgstr "Dönüştürme işlemi başlatılan: %s tablosu."
+
+#: includes/database/smart-sort.php:542
+msgid "Finished part %part% of %table% table."
+msgstr "%table% tablosunun %part%. parçası tamamlandı."
+
+#: includes/extracter/extract.php:602
+msgid "Restoring files (this process may take a while)..."
+msgstr "Dosyalar geri yükleniyor (bu işlem biraz sürebilir)..."
+
+#: includes/extracter/extract.php:618
+msgid "All files restored successfully."
+msgstr "Tüm dosyalar başarıyla geri yüklendi."
+
+#: includes/extracter/extract.php:794
+msgid "Checking the database structure..."
+msgstr "Veritabanı yapısı kontrol ediliyor..."
+
+#: includes/extracter/extract.php:1394
+msgid "Splitting process is disabled in the settings, omitting."
+msgstr "Ayarlarda işlem bölme devre dışı bırakılmış, atlanıyor."
+
+#: includes/extracter/extract.php:1404
+msgid "Converting database files into partial files."
+msgstr "Veritabanı dosyaları kısmi dosyaya dönüştürülüyor."
+
+#: includes/extracter/extract.php:1438
+msgid "Database convertion finished successfully."
+msgstr "Veritabanı dönüştürme işlemi başarıyla tamamlandı."
+
+#: includes/extracter/extract.php:1440
+msgid "Calculating new query size and counts."
+msgstr "Yeni sorgu boyutu ve sayım miktarı hesaplanıyor."
+
+#: includes/extracter/extract.php:1442
+msgid "Calculaion completed, printing details."
+msgstr "Hesaplama tamamlandı, detaylar yazdırılıyor."
+
+#: includes/extracter/extract.php:1444
+msgid "Total queries to insert after conversion: "
+msgstr "Dönüştürme sonrası girilecek toplam sorgu:"
+
+#: includes/extracter/extract.php:1445
+msgid "Partial files count after conversion: "
+msgstr "Dönüşüm sonrası parça dosya sayısı:"
+
+#: includes/extracter/extract.php:1446
+msgid "Total size of the database: "
+msgstr "Veritabanının toplam boyutu:"
+
+#: includes/extracter/extract.php:1447
+msgid "Table count to be imported: "
+msgstr "İçe yüklenecek tablo sayısı:"
+
+#: includes/extracter/extract.php:1460
+msgid "Ommiting database convert step as the database backup included was not made with V2 engine."
+msgstr "Veritabanı dönüştürme adımı, dahil edilen veritabanı yedeği V2 motoru ile oluşturulmadığı için atlanıyor."
+
+#: includes/extracter/extract.php:1461
+msgid "The process may be less stable if the database is larger than usual."
+msgstr "Eğer veritabanı boyutu normalden daha büyükse işlem daha az stabil olabilir."
+
+#: includes/extracter/extract.php:1466
+msgid "Ommiting database convert step as there is no database backup included."
+msgstr "Veritabanı yedeği eklenmediği için veritabanı dönüştürme adımı atlanıyor."
+
+#: includes/zipper/src/zip.php:818
+msgid "Extracting files into temporary directory (this process can take some time)..."
+msgstr "Dosyalar geçici dizine çıkartılıyor (bu işlem biraz zaman alabilir)..."
+
+#: includes/dashboard/chapter/other_config.php:17
+msgid "Lower value means slower process but more stable restore, higher value means quicker backup and restore but it may be unstable (depends on database server performance). Default value: 300."
+msgstr "Düşük değer, daha yavaş işlem ama daha stabil bir geri yükleme; yüksek değer, daha hızlı yedekleme ve geri yükleme ama stabil olmama ihtimali demektir (veritabanı sunucusu performansına bağlıdır). Varsayılan değer: 300."
+
+#: includes/dashboard/chapter/store_config.php:51
+msgid "16 character random hash"
+msgstr "16 karakterlik rastgele sonuç"
+
+#: includes/dashboard/chapter/what_backed_up.php:249
+#: includes/dashboard/chapter/what_backed_up.php:273
+msgid "You can use there constant %s as your root path."
+msgstr "Kök yolunuz olması adına orada sabit %s kullanabilirsiniz."
+
+#: includes/zipper/src/zip.php:713
+msgid "ZipArchive is not available, using PclZIP."
+msgstr "ZipArchive mevcut değil, PclZIP kullanılıyor."
+
+#: includes/zipper/src/zip.php:696
+msgid "Using ZipArchive, omiting memory limit calculations..."
+msgstr "ZipArchive kullanılıyor, hafıza sınırı hesaplamaları atlanıyor..."
+
+#: includes/extracter/extract.php:1229
+msgid "File extraction process failed."
+msgstr "Dosya çıkarma işlemi başarısız oldu."
+
+#: includes/extracter/extract.php:1176
+msgid "Secret key detected successfully (pong)!"
+msgstr "Gizli anahtar başarıyla tespit edildi (pong)!"
+
+#: includes/extracter/extract.php:1134
+msgid " files inside the backup."
+msgstr "yedekleme içinde dosyalar mevcut."
+
+#: includes/extracter/extract.php:1134
+msgid "Scan found "
+msgstr "Tarama bulundu"
+
+#: includes/extracter/extract.php:1121
+msgid "Secret key generated, it will be returned to you (ping)."
+msgstr "Gizli anahtar oluşturuldu, sizlere teslim edilecektir (ping)."
+
+#: includes/extracter/extract.php:1118
+msgid "Making new secret key for current restore process."
+msgstr "Mevcut geri yükleme işlemi için yeni gizli anahtar oluşturuluyor."
+
+#: includes/extracter/extract.php:846
+msgid "This backup does not contain database copy, omitting..."
+msgstr "Bu yedekleme veritabanı kopyası barındırmıyor, atlanıyor..."
+
+#: includes/extracter/extract.php:505
+msgid "Extraction milestone: "
+msgstr "Çıkartma mihenktaşı:"
+
+#: includes/extracter/extract.php:493
+msgid "Failed to extract the files..."
+msgstr "Dosya çıkarımı başarısız oldu..."
+
+#: includes/extracter/extract.php:460
+msgid "Files exported per batch: "
+msgstr "Grup başına dışa aktarılan dosya sayısı:"
+
+#: includes/extracter/extract.php:459
+msgid "Preparing batching technique for extraction..."
+msgstr "Çıkartma işlemi için gruplama tekniği hazırlanıyor..."
+
+#: includes/dashboard/chapter/other_config.php:343
+msgid "Disable PHP CLI Checking, try to use alternate methods."
+msgstr "PHP CLI Kontrolünü devre dışı bırakın, alternatif yöntemleri kullanmayı deneyin."
+
+#: includes/dashboard/chapter/other_config.php:335
+msgid "Please leave it empty if you do not know what you are doing, unless our support told you what it does."
+msgstr "Eğer destek birimimiz size nasıl çalıştığını söylemediyse ve ne yaptığınızı bilmiyorsanız lütfen boş bırakın."
+
+#: includes/dashboard/chapter/other_config.php:334
+msgid "This field has no effect if PHP CLI is not available on the server or it is disabled due to settings."
+msgstr "Eğer PHP CLI sunucuda mevcut değilse veya ayarları sebebiyle devre dışı bırakıldıysa bu alanın hiçbir etkisi yoktur."
+
+#: includes/dashboard/chapter/other_config.php:331
+msgid "Automatic"
+msgstr "Otomatik"
+
+#: includes/dashboard/chapter/other_config.php:326
+msgid "PHP CLI executable path:"
+msgstr "PHP CLI çalıştırılabilir yol:"
+
+#: includes/dashboard/chapter/other_config.php:321
+msgid "Backup & Restore – PHP CLI Settings (advanced)"
+msgstr "Yedekle & Geri Yükle - PHP CLI Ayarları (ileri seviye)"
+
+#: includes/ajax.php:1515
+msgid "Path to executable that you provided for PHP CLI does not exist."
+msgstr "PHP CLI için sağladığınız çalıştırılabilir yol mevcut değil."
+
+#: includes/ajax.php:1204
+msgid "Restore process is currently running, please wait till it complete."
+msgstr "Geri yükleme işlemi an itibariyle çalışıyor, lütfen bitene kadar bekleyiniz."
+
+#: includes/ajax.php:1020
+msgid "Restore process initialized, restoring (non-cli mode)..."
+msgstr "Geri yükleme işlemi başlatıldı, geri yükleniyor (non-cli modu)..."
+
+#: includes/ajax.php:535
+msgid "PHP CLI file cannot be executed due to unknown reason."
+msgstr "Bilinmeyen bir sebepten ötürü PHP CLI dosyası çalıştırılamıyor."
+
+#: includes/ajax.php:130
+msgid "PHP CLI is disabled manually, plugin will omit all PHP CLI steps."
+msgstr "PHP CLI manuel olarak devre dışı bırakılmış, eklenti tüm PHP CLI adımlarını atlayacaktır."
+
+#: includes/extracter/extract.php:624
+msgid "Older backup detected, using V1 engine to restore database..."
+msgstr "Daha eski bir yedekleme tespit edildi, V1 motoru kullanılarak veritabanı onarılıyor..."
+
+#: includes/extracter/extract.php:722
+msgid "Successfully detected backup created with V2 engine, importing..."
+msgstr "V2 motoru kullanılarak oluşturulmuş yedekleme başarıyla tespit edildi, içeri aktarılıyor..."
+
+#: includes/ajax.php:1328
+msgid "Downloading via PHP CLI"
+msgstr "PHP CLI ile indiriliyor"
+
+#: includes/ajax.php:1017
+msgid "PHP CLI: Restore process initialized, restoring..."
+msgstr "PHP CLI: Onarım işlemi başlatıldı, onarılıyor..."
+
+#: includes/ajax.php:989
+msgid "No response from PHP CLI - plugin will try to recover the migration with traditional restore."
+msgstr "PHP CLI'dan yanıt alınamıyor - eklenti, geleneksel onarım ile taşımayı kurtarmayı deneyecek."
+
+#: includes/ajax.php:937
+msgid "The restore process is currently running, please wait till it end or once the lock file expire."
+msgstr "Kurtarma işlemi an itibariyle çalışmakta, lütfen bitene kadar veya kilit dosyasının süresi geçinceye kadar bekleyin."
+
+#: includes/ajax.php:545
+msgid "Backup via PHP CLI initialized successfully."
+msgstr "PHP CLI ile yedekleme başarıyla tamamlandı."
+
+#: includes/ajax.php:518
+msgid "Backup will not be continued due to manual abort by user."
+msgstr "Kullanıcının manuel olarak iptal etmesi sebebiyle yedekleme devam etmeyecektir."
+
+#: includes/ajax.php:513
+msgid "Something went wrong in PHP CLI process, backup will be continued with legacy methods."
+msgstr "PHP CLI işlemi ile ilgili bir şey yanlış gitti, yedekleme eski yöntemlerle devam edecektir."
+
+#: includes/ajax.php:318
+msgid "Cleaning up exported files..."
+msgstr "Çıktısı alınmış dosyalar temizleniyor..."
+
+#: includes/ajax.php:249 includes/ajax.php:341
+msgid "#002"
+msgstr "#002"
+
+#: includes/ajax.php:161
+msgid "We properly detected PHP CLI executable file."
+msgstr "PHP CLI yürütülebilir dosyasını uygun şekilde tespit ettik."
+
+#: includes/ajax.php:160
+msgid "PHP CLI Execution limit: "
+msgstr "PHP CLI Yürütme limiti:"
+
+#: includes/ajax.php:159
+msgid "PHP CLI Memory limit: "
+msgstr "PHP CLI Hafıza limiti:"
+
+#: includes/ajax.php:157
+msgid "PHP CLI Filename: "
+msgstr "PHP CLI Dosya Adı:"
+
+#: includes/ajax.php:145
+msgid "PHP CLI is disabled in your php.ini file, the process may be unstable."
+msgstr "PHP CLI, php.ini dosyanızda devre dışıdır, süreç stabil işlemeyebilir."
+
+#: includes/ajax.php:147
+msgid "Could not find proper PHP CLI executable, this process may be unstable."
+msgstr "Uygun PHP CLI yürütülebilir dosyası bulunamadı, süreç stabil işlemeyebilir."
+
+#: includes/ajax.php:135
+msgid "Looking for PHP CLI executable file."
+msgstr "PHP CLI yürütülebilir dosyası aranıyor."
+
+#: includes/zipper/src/zip.php:426
+msgid "Backup will run as single-request, may be unstable..."
+msgstr "Yedekleme tek-talep olarak çalıştırılacak, stabil işlemeyebilir..."
+
+#: includes/zipper/src/zip.php:421
+msgid "Backup is running under PHP CLI environment."
+msgstr "Yedekleme PHP CLI ortamı altında çalışıyor."
+
+#: includes/dashboard/chapter/other_config.php:361
+msgid "Use direct downloading - that will remove .htaccess protection right before download (can solve download issues)."
+msgstr "Doğrudan indirme kullanın - bu işlem .htaccess korumasını indirmeden hemen önce kaldıracaktır (indirme sorunlarınızı çözebilir)."
+
+#: includes/dashboard/chapter/other_config.php:354
+msgid "technique"
+msgstr "tekniği"
+
+#: includes/dashboard/chapter/other_config.php:354
+msgid "Backup downloading"
+msgstr "Yedekleme indirme"
+
+#: includes/dashboard/chapter/other_config.php:350
+msgid "Change basic functions of the plugin"
+msgstr "Eklentinin basit fonksiyonlarını değiştirin"
+
+#: includes/dashboard/modals/backup-success-modal.php:69
+#: includes/dashboard/modals/restore-success-modal.php:76
+msgid "Trouble logging in?"
+msgstr "Giriş yapmakta sorun mu yaşıyorsunuz?"
+
+#: includes/dashboard/modals/backup-success-modal.php:62
+#: includes/dashboard/modals/restore-success-modal.php:69
+msgid "Sounds fair, let me give a rating"
+msgstr "Kulağa adil geliyor, puanlayayım"
+
+#: includes/dashboard/modals/backup-success-modal.php:56
+#: includes/dashboard/modals/restore-success-modal.php:63
+msgid "Like how easy it was? Then <b>PLEASE</b> give us a nice rating so that others discover out plugin & benefit from it too. Thank you!!"
+msgstr "Kolaylığı hoşunuza gitti mi? O halde <b>LÜTFEN</b> bize güzel bir değerlendirme puanı verin, bu sayede başkaları da eklentimizi keşfetsin & faydalansın. Teşekkür ederiz!!"
+
+#: includes/ajax.php:533
+msgid "PHP CLI will not run due to user settings in plugin other options."
+msgstr "PHP CLI, eklentinin diğer seçeneklerindeki kullanıcı ayarları sebebiyle çalışmayacaktır."
+
+#: includes/ajax.php:158
+msgid "PHP CLI Version: "
+msgstr "PHP CLI Sürümü:"
+
+#: includes/extracter/extract.php:1066
+msgid "Elementor cache cleared!"
+msgstr "Elementor önbelleği temizlendi!"
+
+#: includes/extracter/extract.php:1063
+msgid "Clearing elementor template cache..."
+msgstr "Elementor şablon önbelleği temizleniyor..."
+
+#: includes/database/manager.php:270
+msgid "Importing failed - Cannot open SQL file..."
+msgstr "İçeri aktarım başarısız oldu - SQL dosyası açılamıyor..."
+
+#: includes/database/manager.php:269
+msgid "Cannot open SQL file..."
+msgstr "SQL dosyası açılamıyor..."
+
+#: includes/database/manager.php:233
+msgid "Importing failed - cannot connect to the database."
+msgstr "İçeri aktarım başarısız oldu - veritabanına bağlanılamıyor."
+
+#: includes/database/manager.php:232
+msgid "Failed to connect to MySQL: "
+msgstr "MySQL'e bağlantı başarısız oldu:"
+
+#: includes/dashboard/translations.php:45
+msgid "Browser successfully received backup settings."
+msgstr "Tarayıcı yedekleme ayarlarını başarıyla aldı."
+
+#: includes/dashboard/chapter/other_config.php:311
+msgid "Bypass web server limits - it will disable automatic backup and possibility to run it in the background"
+msgstr "Ağ sunucusu limitlerini atla - bu seçenek otomatik yedeklemeyi ve arkaplanda çalışması ihtimalini devre dışı bırakacaktır"
+
+#: includes/dashboard/chapter/other_config.php:301
+msgid "Bypass web server timeout directive - backup process may be slower"
+msgstr "Ağ sunucusu zaman aşımı talimatını atla - yedekleme işlemi yavaş olabilir"
+
+#: includes/dashboard/chapter/other_config.php:291
+msgid "Do not change the default plugin functions - it may require to adjust your server for stable backup"
+msgstr "Varsayılan eklenti fonksiyonlarını değiştirme - stabil yedekleme için sunucunuzu ayarlamanızı gerektirebilir"
+
+#: includes/dashboard/chapter/other_config.php:282
+msgid "features"
+msgstr "özellikler"
+
+#: includes/dashboard/chapter/other_config.php:282
+msgid "experimental"
+msgstr "deneysel"
+
+#: includes/dashboard/chapter/other_config.php:282
+msgid "Some"
+msgstr "Bazı"
+
+#: includes/dashboard/chapter/other_config.php:278
+msgid "Change functionality of the plugin"
+msgstr "Eklentinin işlevselliğini değiştir"
+
+#: includes/dashboard/chapter/other_config.php:16
+msgid "This option will require you to not close the backup window since it will use your connection to keep the backup in parts, it will disable automatic backups. Use this only if all of the above does not work. Recommended for huge sites +100k files / 5+ GB."
+msgstr "Bu seçenek yedeklemeleri parçalı halde tutmak adına bağlantınızı kullanacağı için yedekleme penceresini kapatmamanızı gerektirmektedir, otomatik yedeklemeleri devre dışı bırakacaktır. Bunu yalnızca yukarıdakiler çalışmıyorsa kullanın. Devasa siteler için önerilir (+100k dosya / 5+ GB)."
+
+#: includes/dashboard/chapter/other_config.php:15
+msgid "Use this option before the third one, it should work fine on SSD/NVMe hostings even for huge backups - but still may timeout if you are running on slow drive high I/O."
+msgstr "Bu seçeneği üçüncüden önce kullanın, devasa yedeklemeler söz konusu olduğunda bile SSD/NVMe hostinglerinde düzgünce çalışacaktır - fakat eğer yavaş sürücü, yüksek I/O üzerinden çalıştırıyorsanız yine de zaman aşımına uğrayabilir."
+
+#: includes/dashboard/chapter/other_config.php:14
+msgid "Use this option if you have full access to your server and you know how to make basic configuration of the server. Wrong configuration may give you hick-ups without error due to e.g. web server server timeout (for small sites below 300 MB this is the best option)."
+msgstr "Bu seçeneği, eğer sunucunuza tam erişiminiz varsa ve sunucunun temel yapılandırmalarını yapmayı biliyorsanız kullanın. Yanlış yapılandırma sizlere muhakkak bazı sıkıntılar yaratabilir, örneğin ağ sunucusu zaman aşımı gibi (300 mb altındaki küçük siteler için bu en iyi seçenektir)."
+
+#: includes/dashboard/chapter/other_config.php:13
+msgid "It will change some fundamental logics of the plugin"
+msgstr "Eklentinin bazı temel mantıklarını değiştirecektir"
+
+#: includes/check/checker.php:49
+msgid "Checking this path/partition: "
+msgstr "Bu yol/bölme inceleniyor:"
+
+#: includes/ajax.php:2124
+msgid "This file is quite big consider to exclude it, if backup fails: "
+msgstr "Bu dosya fazlasıyla büyük, eğer yedekleme başarısız olursa dosyayı dahil etmemeyi değerlendirin:"
+
+#: includes/ajax.php:207 includes/ajax.php:274
+msgid "There was an error before request shutdown (but it was not logged to restore log)"
+msgstr "Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)"
+
+#: includes/zipper/src/zip.php:505
+msgid "Chunks contain "
+msgstr "Yığın içinde"
+
+#: includes/zipper/src/zip.php:505
+msgid " files."
+msgstr "dosyalar mevcut."
+
+#: includes/zipper/src/zip.php:440 includes/zipper/src/zip.php:748
+msgid "Using dedicated PclZIP for Premium Users."
+msgstr "Premium Kullanıcılarına atanmış PclZIP kullanılıyor."
+
+#: includes/zipper/src/zip.php:406
+msgid "Still nothing backup probably is not running."
+msgstr "Hala bir şey yok, muhtemelen yedekleme çalıştırılmadı."
+
+#: includes/zipper/src/zip.php:399
+msgid "Could not find any response from the server, trying again in 3 seconds."
+msgstr "Sunucudan herhangi bir cevap alınamadı, 3 saniye içinde tekrar deneniyor."
+
+#: includes/zipper/src/zip.php:385
+msgid "Starting background process on server-side..."
+msgstr "Sunucu-tarafında arkaplan işlemi başlatılıyor..."
+
+#: includes/zipper/src/zip.php:381
+msgid "Sending backup settings and identy to the browser"
+msgstr "Yedekleme seçenekleri ve kimlik tarayıcıya gönderiliyor"
+
+#: includes/zipper/src/zip.php:337
+msgid "Legacy setting: Using default modules depending on user server"
+msgstr "Eski ayar: Kullanıcı sunucusuna bağlı olarak varsayılan modüller kullanılıyor"
+
+#: includes/extracter/extract.php:625 includes/zipper/src/zip.php:132
+msgid "Database size: "
+msgstr "Veritabanı büyüklüğü:"
+
+#: includes/zipper/src/zip.php:198
+msgid "WordPress memory limit: %s MBs"
+msgstr "WordPress hafıza limiti: %s MB"
+
+#: includes/zipper/zipping.php:49
+msgid "Something went wrong (pclzip) – removing backup files..."
+msgstr "Bir hata oldu (pclzip) - yedekleme dosyaları kaldırılıyor..."
+
+#: includes/initializer.php:347
+msgid "There was an error before request shutdown (but it was not logged to backup/restore log)"
+msgstr "Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)"
+
+#: includes/initializer.php:338
+msgid "Shuted down"
+msgstr "Kapatıldı"
+
+#: includes/check/checker.php:45
+msgid "Requires at least "
+msgstr "Gereken en az miktar:"
+
+#: includes/check/checker.php:45
+msgid " bytes."
+msgstr " bayttır."
+
+#: includes/zipper/src/zip.php:334
+msgid "Legacy setting: Using user browser as middleware for full capabilities"
+msgstr "Eski ayar: Tam kapasite için tarayıcı aracı yazılım olarak kullanılıyor"
+
+#: includes/zipper/src/zip.php:332
+msgid "Legacy setting: Using server-sided script and cURL based loop for better capabilities"
+msgstr "Eski ayar: Daha iyi yetkinlikler adına sunucu-taraflı dil ve cURL bazlı loop kullanılıyor"
+
+#: includes/zipper/src/zip.php:330
+msgid "Using PclZip module to create the backup"
+msgstr "Yedeklemeyi oluşturmak için PclZip modülü kullanılıyor"
+
+#: includes/dashboard/modals/freeze-loading.php:20
+#: includes/dashboard/translations.php:153
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#: includes/initializer.php:421
+msgid "Aborting & unlocking restore process..."
+msgstr "İptal ediliyor & onarım işlemi açılıyor..."
+
+#: includes/initializer.php:361 includes/initializer.php:377
+msgid "You can get more pieces of information in troubleshooting log file."
+msgstr "Sorun giderim kayıt dosyasında daha fazla bilgi edinebilirsiniz."
+
+#: includes/ajax.php:881
+msgid "This is a test email sent by the Backup Migration plugin via Troubleshooting options!"
+msgstr "Bu Yedek Taşıma Eklentisi tarafından Sorun Giderme seçenekleri ile gönderilmiş bir test e-postasıdır!"
+
+#: includes/dashboard/translations.php:147
+msgid "Operation finished with success."
+msgstr "Operasyon başarı ile tamamlandı."
+
+#: includes/dashboard/translations.php:144
+msgid "Manually created backups are always locked."
+msgstr "Manuel olarak oluşturulmuş yedekler her zaman kilitlidir."
+
+#: includes/dashboard/translations.php:138
+msgid "Email send successfully, check mailbox."
+msgstr "E-posta başarı ile gönderildi, gelen kutunuzu kontrol ediniz."
+
+#: includes/dashboard/chapter/troubleshooting.php:245
+msgid "Check if the email is visible in your mailbox / spam folder."
+msgstr "E-posta'nın gereksiz posta kutusunda / gelen kutusunda olup olmadığına bakınız."
+
+#: includes/dashboard/chapter/troubleshooting.php:240
+msgid "Test email"
+msgstr "Test e-postası"
+
+#: includes/dashboard/chapter/troubleshooting.php:228
+msgid "Error: php_uname is disabled for security reasons"
+msgstr "Hata: php_uname güvenlik sebepleri yüzünden devre dışı bırakılmıştır. "
+
+#: includes/dashboard/translations.php:150
+msgid "Operation failed, please try again."
+msgstr "Operasyon başarısız oldu, lütfen tekrar deneyiniz. "
+
+#: includes/constants.php:150
+msgid "Order it now at a big discount!"
+msgstr "Büyük bir indirim ile şimdi sipariş edin!"
+
+#: includes/dashboard/translations.php:141
+msgid "There was an error sending the email, please use additional plugins to debug it or ask your hosting administrator for help."
+msgstr "E-posta gönderilirken bir sorun çıktı, lütfen onarmak için ilave eklentiler kullanınız veya sunucu yöneticinizden yardım isteyiniz."
+
+#: includes/constants.php:142
+msgid "learn more"
+msgstr "daha fazla bilgi alın"
+
+#: includes/dashboard/chapter/troubleshooting.php:247
+msgid "Click here"
+msgstr "E-postayı göndermek için"
+
+#: includes/dashboard/chapter/troubleshooting.php:247
+msgid "to send the mail."
+msgstr "buraya tıklayınız."
+
+#: includes/dashboard/chapter/troubleshooting.php:246
+msgid "Message will be sent to e-mail you provided in the "
+msgstr "İletiniz, diğer seçenekler kısmında vermiş olduğunuz "
+
+#: includes/dashboard/chapter/troubleshooting.php:246
+msgid "other options"
+msgstr "e-postaya gönderilecektir."
+
+#: includes/dashboard/chapter/troubleshooting.php:245
+msgid "Remember that even if you get success alert there still might be some issues."
+msgstr "\"Başarılı\" bildirimi alsanız bile bazı sorunlar oluşabileceğini unutmayınız."
+
+#: includes/dashboard/chapter/troubleshooting.php:244
+msgid "If you're willing to know if your server is properly configured to send emails, you can test it here."
+msgstr "Eğer sunucunuzun e-posta göndermek için doğru biçimde yapılandırılmış olup olmadığını görmek istiyorsanız, buradan test edebilirsiniz."
+
+#: includes/dashboard/chapter/troubleshooting.php:236
+msgid "Restore original pclzip file (will work after first replacement)"
+msgstr "Orijinal pclzip dosyasını geri yükleyiniz (ilk yerdeğiştirmeden sonra işe yarayacaktır)"
+
+#: includes/dashboard/chapter/troubleshooting.php:235
+msgid "You can also restore the changes with one click if something went wrong:"
+msgstr "Ayrıca bir şeylerin yanlış gitmesi durumunda değişiklikleri tek tık ile eski haline getirebilirsiniz. "
+
+#: includes/dashboard/chapter/troubleshooting.php:234
+msgid "Replace php_uname function in pclzip file"
+msgstr "pclzip dosyasındaki php_uname fonksiyonunu değiştir"
+
+#: includes/dashboard/chapter/troubleshooting.php:233
+msgid "You can automatically replace the function with compatible code:"
+msgstr "Fonksiyonu, otomatik olarak, uyumlu kod ile değiştirebilirsiniz: "
+
+#: includes/dashboard/chapter/troubleshooting.php:232
+msgid "Some hostings blocks php_uname function which is required by pclzip module included in WordPress."
+msgstr "Bazı sunucular, pclzip modülü tarafından gerekli olan ve WordPress'e dahil olan php_uname fonksiyonunu bloke etmektedir. "
+
+#: includes/dashboard/chapter/what_backed_up.php:400
+msgid "* At this moment excluded files are not counted here - yet (it will be in future of course!)."
+msgstr "Şu an için hariç tutulan dosyalar burada sayılmamaktadır (ileride elbette olacak!)."
+
+#: includes/ajax.php:581 includes/ajax.php:1070
+msgid "Premium version is enabled but not active, using free plugin."
+msgstr "Premium versiyon etkinleştirildi fakat aktive edilmedi, ücretsiz eklenti kullanılıyor. "
+
+#: includes/ajax.php:579 includes/ajax.php:1068
+msgid "Premium plugin is enabled and activated"
+msgstr "Premium eklenti etkinleştirildi ve aktive edildi"
+
+#: includes/ajax.php:353 includes/ajax.php:354
+msgid "Exception: "
+msgstr "İstisna:"
+
+#: includes/ajax.php:308
+msgid "There was an error during restore process:"
+msgstr "Geri yükleme aşamasında bir hata oluştu:"
+
+#: includes/ajax.php:280
+msgid "There was an error/warning during restore process:"
+msgstr "Geri yükleme esnasında bir hata/uyarı oluştu:"
+
+#: includes/ajax.php:261 includes/ajax.php:262
+msgid "Restore exception: "
+msgstr "İstisnayı geri yükle: "
+
+#: includes/ajax.php:233 includes/ajax.php:304
+msgid "Cannot move: "
+msgstr "Hareket edemiyor:"
+
+#: includes/ajax.php:221 includes/ajax.php:226 includes/ajax.php:231
+#: includes/ajax.php:292 includes/ajax.php:297 includes/ajax.php:302
+msgid "Restore process was not aborted due to this error."
+msgstr "Geri yükleme süreci bu hataya bağlı olarak durdurulmadı."
+
+#: includes/ajax.php:215 includes/ajax.php:286
+msgid "There was an error not related to Backup Migration Plugin."
+msgstr "Yedek Taşıma Eklentisi ile alakalı olmayan bir hata oluştu. "
+
+#: includes/ajax.php:214 includes/ajax.php:285
+msgid "Restore process was not aborted because this error is not related to Backup Migration."
+msgstr "Geri yükleme süreci durdurlmadı çünkü bu hata Yedek Taşıma ile ilgili değil."
+
+#: includes/ajax.php:216 includes/ajax.php:238 includes/ajax.php:281
+#: includes/ajax.php:287 includes/ajax.php:309
+msgid "Message: "
+msgstr "İleti: "
+
+#: includes/ajax.php:237
+msgid "There was an error during backup:"
+msgstr "Yedekleme esnasında bir hata oluştu:"
+
+#: includes/initializer.php:1107
+msgid "Plugin has been deactivated"
+msgstr "Eklenti devre dışı bırakıldı"
+
+#: includes/initializer.php:1082
+msgid "[DOWNLOAD GENERATED] File downloaded on (server time): "
+msgstr "[YÜKLEME OLUŞTURULDU] Dosya indirildi (sunucu zamanı):"
+
+#: includes/ajax.php:240 includes/initializer.php:393
+msgid "Unfortunately we had to remove the backup (if partly created)."
+msgstr "Malesef yedeği silmek zorunda kaldık (eğer kısmen yüklendiyse)."
+
+#: includes/ajax.php:209 includes/ajax.php:276 includes/initializer.php:349
+#: includes/initializer.php:357 includes/initializer.php:373
+#: includes/initializer.php:395 includes/initializer.php:417
+msgid "Error file/line: "
+msgstr "Hata dosyası/sırası:"
+
+#: includes/ajax.php:208 includes/ajax.php:275 includes/initializer.php:348
+#: includes/initializer.php:356 includes/initializer.php:360
+#: includes/initializer.php:372 includes/initializer.php:376
+#: includes/initializer.php:394 includes/initializer.php:416
+msgid "Error message: "
+msgstr "Hata mesajı:"
+
+#: includes/ajax.php:880
+msgid "Backup Migration – Example email"
+msgstr "Yedek Taşıma - Örnek e-posta"
+
+#: includes/ajax.php:586 includes/ajax.php:1046
+msgid "Initializing custom error handler"
+msgstr "Kişiye özel hata çözücü başlatılıyor"
+
+#: includes/ajax.php:569 includes/ajax.php:1064
+msgid "Max execution time (in seconds): "
+msgstr "Maksimum çalışma zamanı (saniye olarak):"
+
+#: includes/ajax.php:567 includes/ajax.php:1062
+msgid "Web server: Not available"
+msgstr "Ağ sunucusu : Uygun değil"
+
+#: includes/ajax.php:565 includes/ajax.php:1060
+msgid "Web server: "
+msgstr "Ağ sunucusu:"
+
+#: includes/ajax.php:560 includes/ajax.php:1055
+msgid "PHP Version: "
+msgstr "PHP sürümü:"
+
+#: includes/ajax.php:217 includes/ajax.php:288
+msgid "Backup will not be aborted because of this."
+msgstr "Yedekleme bunun yüzünden durdurulmayacaktır."
+
+#: includes/ajax.php:239 includes/ajax.php:282 includes/ajax.php:310
+msgid "File/line: "
+msgstr "Dosya/satır:"
+
+#: includes/initializer.php:1084
+msgid "[DOWNLOAD GENERATED] Last update (date): "
+msgstr "[İNDİRME OLUŞTURULDU] Son güncelleme (tarih):"
+
+#: includes/initializer.php:1083
+msgid " seconds ago "
+msgstr " saniye önce"
+
+#: includes/initializer.php:1083
+msgid "[DOWNLOAD GENERATED] Last update (seconds): "
+msgstr "[YÜKLEME OLUŞTURULDU] Son güncelleme (saniye):"
+
+#: includes/ajax.php:314
+msgid "Aborting restore process..."
+msgstr "Geri yükleme işlemi sonlandırılıyor..."
+
+#: includes/initializer.php:397
+msgid "Probably we could not increase the execution time, please edit your php.ini manually"
+msgstr "Büyük ihtimalle çalıştırma süresini arttıramadık, lütfen php.ini dosyanızı manuel olarak düzenleyin"
+
+#: includes/initializer.php:392 includes/initializer.php:415
+msgid "Something bad happened on PHP side."
+msgstr "PHP tarafında bir hata oluştu."
+
+#: includes/initializer.php:371
+msgid "There was an error during restore process"
+msgstr "Geri yükleme işlemi esnasında bir sorun oluştu"
+
+#: includes/initializer.php:355
+msgid "There was an error during backup"
+msgstr "Yedekleme esnasında bir hata oluştu"
+
+#: includes/activation.php:21
+msgid "Plugin has been activated"
+msgstr "Eklenti etkinleştirildi"
+
+#: includes/dashboard/modules/backup_controller.php:183
+msgid "so that the backup process gets triggered"
+msgstr "ki yedekleme işlemi harekete geçsin"
+
+#: includes/dashboard/modules/backup_controller.php:178
+msgid "time now:"
+msgstr "mevcut zaman:"
+
+#. Plugin Name of the plugin
+msgid "Backup Migration"
+msgstr "Yedek Taşıma"
+
+#: includes/extracter/extract.php:1094
+msgid "Something bad happened..."
+msgstr "Bir hata oluştu..."
+
+#: includes/extracter/extract.php:1748
+msgid "Restore process took: "
+msgstr "Geri yükleme aşaması süresi: "
+
+#: includes/extracter/extract.php:1048
+msgid "User should be logged in"
+msgstr "Kullanıcının giriş yapması gerekmektedir"
+
+#: includes/extracter/extract.php:1019
+msgid "Making new login session"
+msgstr "Yeni giriş oturumu yapılıyor"
+
+#: includes/extracter/extract.php:633 includes/extracter/extract.php:662
+#: includes/extracter/extract.php:678 includes/extracter/extract.php:695
+#: includes/extracter/extract.php:787
+msgid "Database restored"
+msgstr "Veri tabanı geri yüklendi"
+
+#: includes/extracter/extract.php:723
+msgid "Restoring database..."
+msgstr "Veri tabanı geri yükleniyor..."
+
+#: includes/extracter/extract.php:992
+msgid "WP-Config restored"
+msgstr "WP-Config geri yüklendi"
+
+#: includes/extracter/extract.php:978
+msgid "Restoring wp-config file..."
+msgstr "WP-Config dosyası geri yükleniyor..."
+
+#: includes/extracter/extract.php:519
+msgid "Files extracted..."
+msgstr "Dosyalar çıkarıldı..."
+
+#: includes/extracter/extract.php:1184
+msgid "Scanning archive..."
+msgstr "Arşivler taranıyor..."
+
+#: includes/ajax.php:325 includes/extracter/extract.php:306
+msgid "Removing "
+msgstr "Kaldırılıyor"
+
+#: includes/extracter/extract.php:1104
+msgid "Making temporary directory"
+msgstr "Geçici dizin oluşturuluyor"
+
+#: includes/database/manager.php:280
+msgid "Importing finished. Now, Delete the import file."
+msgstr "İçe aktarma bitti. Şimdi, içe aktarım dosyasını siliniz."
+
+#: includes/dashboard/modals/upload-wrong-file-modal.php:26
+msgid "The file you tried to upload isn’t a zip-file."
+msgstr "Yüklemeye çalıştığınız dosya bir zip dosyası değil."
+
+#: includes/dashboard/modals/upload-wrong-file-modal.php:21
+msgid "Not right file type"
+msgstr "Yanlış dosya tipi"
+
+#: includes/dashboard/modals/backup-progress-modal.php:64
+msgid "Minimize this window"
+msgstr "Bu pencereyi küçült"
+
+#: includes/dashboard/modals/backup-progress-modal.php:56
+msgid "Please don’t do any major modifications on your site while the backup is running."
+msgstr "Lütfen yedekleme çalışırken sitenizde herhangi bir büyük değişiklik yapmayınız."
+
+#: includes/dashboard/modals/backup-progress-modal.php:49
+#: includes/dashboard/modals/restore-progress-modal.php:49
+msgid "Download live log​"
+msgstr "Canlı kaydı indir"
+
+#: includes/dashboard/modals/backup-progress-modal.php:30
+#: includes/dashboard/modals/backup-progress-modal.php:33
+msgid "Hide live log"
+msgstr "Canlı kaydı sakla"
+
+#: includes/dashboard/modals/backup-progress-modal.php:29
+msgid "Show live log"
+msgstr "Canlı kaydı göster"
+
+#: includes/dashboard/modals/backup-progress-modal.php:16
+msgid "Backup in progress"
+msgstr "Yedekleme yapılıyor"
+
+#: includes/dashboard/modals/after-logs-sent.php:74
+#: includes/dashboard/modals/backup-error-modal.php:54
+#: includes/dashboard/modals/backup-success-modal.php:93
+#: includes/dashboard/modals/restore-error-modal.php:54
+msgid "Close window"
+msgstr "Pencereyi kapayın"
+
+#: includes/dashboard/modals/backup-success-modal.php:28
+msgid "Your backup is now accessible at:"
+msgstr "Yedeğinize şuradan ulaşabilirsiniz:"
+
+#: includes/dashboard/modals/backup-success-modal.php:19
+msgid "Backup successful!"
+msgstr "Yedekleme başarılı!"
+
+#: includes/dashboard/modals/backup-progress-modal.php:36
+#: includes/dashboard/modals/restore-progress-modal.php:35
+msgid "Step: "
+msgstr "Adım:"
+
+#: includes/dashboard/modals/restore-progress-modal.php:16
+msgid "Restoring in progress"
+msgstr "Geri yükleme devam ediyor"
+
+#: includes/dashboard/modals/upload-success-modal.php:21
+msgid "Upload successful!"
+msgstr "Yükleme başarılı!"
+
+#: includes/dashboard/modals/prenotice-modal.php:58
+msgid "Create the backup!"
+msgstr "Yedeği oluştur!"
+
+#: includes/dashboard/modals/prenotice-modal.php:48
+msgid "You selected only database to backup - without website files."
+msgstr "Websitesi dosyalarınız olmadan - yedeklemek için sadece veri tabanını seçtiniz."
+
+#: includes/dashboard/modals/prenotice-modal.php:43
+msgid "You selected only files for backup - without database."
+msgstr "Veri tabanı olmadan - sadece yedekleme için gerekli dosyaları seçtiniz."
+
+#: includes/dashboard/modals/prenotice-modal.php:27
+msgid "You may not have enough memory (RAM) to create the backup. You can still try, if it fails check out the troubleshooting section."
+msgstr "Yedekleme için yeterli hafızaya (RAM) sahip olmayabilirsiniz.Yine de deneyebilirsiniz, eğer yedekleme başarısız olursa lütfen sorun giderme bölümüne bakınız."
+
+#: includes/dashboard/modals/prenotice-modal.php:22
+msgid "You running quite low on space. Maybe it would be good to clear up some space before you do the backup."
+msgstr "Alanınız düşük görünüyor. Belki yedeklemeyi yapmadan önce biraz alan açmayı deneyebilirsiniz."
+
+#: includes/dashboard/modals/reset-confirm-modal.php:29
+msgid "Yes, reset"
+msgstr "Evet, sıfırla"
+
+#: includes/dashboard/modals/restore-success-modal.php:88
+msgid "Thank you!!"
+msgstr "Teşekkürler!!"
+
+#: includes/dashboard/modals/restore-success-modal.php:16
+msgid "Restore successful!​"
+msgstr "Geri yükleme başarılı!"
+
+#: includes/dashboard/modals/pre-restore-modal.php:61
+msgid "* Only those folders, files & database will be replaced which also exist in the backup file."
+msgstr "Sadece yedekleme dosyasında da bulunan dosyalar, klasörler ve veritabanı değiştirilecektir."
+
+#: includes/dashboard/modals/pre-restore-modal.php:51
+msgid "Only want to restore parts of the backup?​"
+msgstr "Sadece yedeğin belli kısımlarını mı geri yüklemek istiyorsunuz?"
+
+#: includes/dashboard/modals/pre-restore-modal.php:43
+msgid "Start restoring!"
+msgstr "Geri yüklemeye başlayın!"
+
+#: includes/dashboard/modals/restore-success-modal.php:93
+#: includes/dashboard/modals/upload-exist-file-modal.php:34
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:32
+#: includes/dashboard/modals/upload-success-modal.php:32
+#: includes/dashboard/modals/upload-wrong-file-modal.php:32
+msgid "Ok, close"
+msgstr "Tamam, kapat"
+
+#: includes/dashboard/modals/bfs-modal.php:50
+msgid "Get premium"
+msgstr "Premium sürümü edinin"
+
+#: includes/dashboard/modals/bfs-modal.php:49
+msgid "Yes, that’s fair…"
+msgstr "Evet, bu adil..."
+
+#: includes/dashboard/modals/bfs-modal.php:40
+msgid "The plugin offers many features for free which other plugins don’t"
+msgstr "Eklenti diğer eklentilerin sağlamadığı bir sürü özelliği bedava olarak sunmaktadır"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:42
+#: includes/dashboard/modals/reset-confirm-modal.php:32
+msgid "No, cancel"
+msgstr "Hayır, iptal et"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:31
+msgid "backups?"
+msgstr "yedeklemeler?"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:30
+msgid "backup?"
+msgstr "yedekleme?"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:28
+msgid "delete"
+msgstr "sil"
+
+#: includes/dashboard/translations.php:129
+msgid "Settings updated successfully"
+msgstr "Ayarlar başarıyla güncellendi"
+
+#: includes/dashboard/translations.php:108
+msgid "Download process should start."
+msgstr "İndirme süreci başlamalı."
+
+#: includes/dashboard/translations.php:102
+msgid "File locked successfully."
+msgstr "Dosya başarılı bir şekilde kilitlendi."
+
+#: includes/dashboard/translations.php:99
+msgid "Could not unlock this backup due to unknown error, please reload and try again."
+msgstr "Bu yedeklemeyi bilinmeyen bir hata sebebiyle açamıyoruz, lütfen tekrar yükleyip deneyiniz. "
+
+#: includes/dashboard/translations.php:96
+msgid "File unlocked successfully."
+msgstr "Dosya başarıyla açıldı."
+
+#: includes/dashboard/translations.php:90
+msgid "There was an issue during saving, some settings may stay unchanged."
+msgstr "Kayıt esansında bir sorun oluştu, bazı ayarlar değiştirilmemiş olarak kalabilir. "
+
+#: includes/dashboard/translations.php:87
+msgid "Configuration saved successfully."
+msgstr "Yapılandırma başarıyla kayıt edildi."
+
+#: includes/dashboard/translations.php:75
+msgid "File has wrong type."
+msgstr "Dosyanın türü yanlış."
+
+#: includes/dashboard/translations.php:69
+msgid "There was an error during file upload."
+msgstr "Dosya yüklenmesi esnasında bir hata oluştu. "
+
+#: includes/dashboard/modals/restore-progress-modal.php:36
+#: includes/dashboard/translations.php:60
+msgid "Preparing restore process..."
+msgstr "Geri yükleme süreci hazırlanıyor..."
+
+#: includes/dashboard/translations.php:57
+msgid "Downloading backup file..."
+msgstr "Yedek dosyası indiriliyor..."
+
+#: includes/dashboard/translations.php:51
+msgid "Backup will be aborted in few seconds."
+msgstr "Yedekleme bir kaç saniye içinde sonlandırılacaktır."
+
+#: includes/dashboard/translations.php:48
+msgid "Your browser does not support copying, please copy by hand"
+msgstr "Tarayıcınız kopyalamayı desteklemiyor, lütfen manuel olarak kopyalayınız"
+
+#: includes/dashboard/chapter/other_config.php:468
+msgid "When this plugins is"
+msgstr "Bu eklenti "
+
+#: includes/dashboard/chapter/other_config.php:268
+msgid "Trigger backups via WP CLI."
+msgstr "WP CLI ile yedeklemeleri başlat. "
+
+#: includes/dashboard/chapter/other_config.php:264
+msgid "WP CLI"
+msgstr "WP CLI"
+
+#: includes/dashboard/chapter/other_config.php:182
+msgid "Before updates"
+msgstr "Güncellemlerden önce"
+
+#: includes/dashboard/chapter/other_config.php:105
+#: includes/dashboard/modals/restore-error-modal.php:31
+msgid "Restore failed"
+msgstr "Geri yükleme başarısız oldu"
+
+#: includes/dashboard/chapter/other_config.php:89
+msgid "Backup creation failed"
+msgstr "Yedek oluşturma başarısız oldu"
+
+#: includes/dashboard/chapter/other_config.php:63
+msgid "This will show up as sender of the emails"
+msgstr "Bu e-postaları gönderen şeklinde görünecek"
+
+#: includes/dashboard/chapter/other_config.php:56
+msgid "From field:"
+msgstr "Alandan:"
+
+#: includes/dashboard/chapter/other_config.php:48
+msgid "This is where the log files will be sent to. You can enter several email addresses, separated by comma."
+msgstr "Kayıt dosyaları buraya gönderilecek. Virgülle ayrılmış olarak birden fazla e-posta adresi girebilirsiniz."
+
+#: includes/dashboard/chapter/other_config.php:35
+msgid "Email address:"
+msgstr "E-posta adresi:"
+
+#: includes/dashboard/chapter/other_config.php:31
+msgid "Email notifications"
+msgstr "E-posta bildirimleri"
+
+#: includes/dashboard/chapter/other_config.php:244
+#: includes/dashboard/chapter/save-button.php:12
+msgid "Save"
+msgstr "Kaydet"
+
+#: includes/dashboard/chapter/save-button.php:16
+#: includes/dashboard/chapter/troubleshooting.php:265
+msgid "Collapse this chapter"
+msgstr "Bu bölümü daralt"
+
+#: includes/dashboard/chapter/troubleshooting.php:251
+msgid "Reset configuration"
+msgstr "Yapılandırmayı sıfırla"
+
+#: includes/dashboard/chapter/troubleshooting.php:205
+msgid "Download logs."
+msgstr "Kayırları indir."
+
+#: includes/dashboard/chapter/troubleshooting.php:202
+msgid "All backup creation & restore processes are documented in log files which to debug issues."
+msgstr "Tüm yedek oluşturma ve geri yükleme aşaması kayıt dosyalarında sorunları ayıklamak için belgelenmiştir."
+
+#: includes/dashboard/chapter/troubleshooting.php:198
+msgid "Logging"
+msgstr "Kayıt ediliyor"
+
+#: includes/dashboard/chapter/troubleshooting.php:194
+msgid "Download your site infos"
+msgstr "Sitenizin bilgilerini indiriniz"
+
+#: includes/dashboard/chapter/troubleshooting.php:128
+msgid "Site information"
+msgstr "Site bilgisi"
+
+#: includes/dashboard/chapter/troubleshooting.php:101
+msgid "Troubleshooting settings"
+msgstr "Sorun giderme ayarları"
+
+#: includes/dashboard/chapter/troubleshooting.php:87
+msgid "Cannot log in there?"
+msgstr "Oraya giriş yapamıyor musunuz?"
+
+#: includes/dashboard/chapter/troubleshooting.php:47
+msgid "Your first port of call. We'll try to respond quickly!"
+msgstr "İlk aramanız. Hızla cevap vermeye çalışacağız!"
+
+#: includes/dashboard/chapter/troubleshooting.php:43
+msgid "Ask us in the Support forum"
+msgstr "Bize destek forumunda sorun"
+
+#: includes/dashboard/chapter/where_config.php:46
+msgid "Enter directory path"
+msgstr "Dizin adresi giriniz"
+
+#: includes/dashboard/chapter/where_config.php:17
+msgid "Select all the storage options you want to use:"
+msgstr "Kullanmak istediğiniz tüm saklama seçeneklerini seçiniz:"
+
+#: includes/dashboard/chapter/store_config.php:130
+msgid "Do you want to encrypt and password protect your files?"
+msgstr "Dosyalarınızı şifrelemek ve parola ile korumak ister misiniz?"
+
+#: includes/dashboard/chapter/store_config.php:126
+msgid "Encryption"
+msgstr "Şifreleme"
+
+#: includes/dashboard/chapter/store_config.php:62
+msgid "Zipping"
+msgstr "Sıkıştırılıyor"
+
+#: includes/dashboard/chapter/store_config.php:50
+msgid "Seconds with leading zeros"
+msgstr "Sıfırdan sonra gelen saniyeler"
+
+#: includes/dashboard/chapter/store_config.php:49
+msgid "Minutes with leading zeros"
+msgstr "Sıfırdan sonra gelen dakikalar"
+
+#: includes/dashboard/chapter/store_config.php:48
+msgid "24-hour format of an hour with leading zeros"
+msgstr "Sıfırdan sonra gelen bir saatin 24 saatlik biçimi"
+
+#: includes/dashboard/chapter/store_config.php:47
+msgid "12-hour format of an hour with leading zeros"
+msgstr "Sıfırdan sonra gelen bir saatin 12 saatlik biçimi"
+
+#: includes/dashboard/chapter/troubleshooting.php:15
+#: includes/dashboard/modals/backup-success-modal.php:10
+msgid "Your account on Wordpress.org (where you open a new support thread) is different to the one you login to your WordPress dashboard (where you are now). If you don’t have a WordPress.org account yet, please sign up at the top right on the Support Forum page, and then scroll down on that page . It only takes a minute :) Thank you!"
+msgstr "WordPress.org'daki hesabınız (yeni bir destek isteği açtığınız yer), WordPress panosuna giriş yaptığınızdan (şu anda olduğunuz yer) farklıdır. Eğer bir WordPress.org hesabınız yoksa, lütfen Destek Forum sayfasının sağ üst köşesinden kayıt olunuz, ve o sayfada aşağıya doğru sürükleme yapınız. Sadece bir dakikanızı alır :) Teşekkürler!"
+
+#: includes/dashboard/chapter/store_config.php:46
+msgid "24-hour format of an hour without leading zeros"
+msgstr "Sıfırdan sonra gelmeyen bir saatin 24 saatlik biçimi"
+
+#: includes/dashboard/chapter/store_config.php:45
+msgid "12-hour format of an hour without leading zeros"
+msgstr "Sıfırdan sonra gelmeyen bir saatin 12 saatlik biçimi"
+
+#: includes/dashboard/chapter/store_config.php:44
+msgid "Swatch Internet time"
+msgstr "İnternet zamanı numunesi"
+
+#: includes/dashboard/chapter/store_config.php:39
+msgid "Numeric representation of a month, without leading zeros"
+msgstr "Bir ayın, öndeki sıfırlar olmadan, numerik gösterilmesi"
+
+#: includes/dashboard/chapter/store_config.php:38
+msgid "Numeric representation of a month, with leading zeros"
+msgstr "Bir ayın, önden gelen sıfırlar ile, numerik gösterilmesi"
+
+#: includes/dashboard/chapter/store_config.php:37
+msgid "Day of the month without leading zeros"
+msgstr "Önden gelen sıfırlar olmadan ayın günü"
+
+#: includes/dashboard/chapter/store_config.php:36
+msgid "Day of the month, 2 digits with leading zeros"
+msgstr "Önden gelen iki haneli sıfırlar ile ayın günü"
+
+#: includes/dashboard/chapter/store_config.php:35
+msgid "A textual representation of a day, three letters"
+msgstr "Günün yazı ile sunulması, üç harfli"
+
+#: includes/dashboard/chapter/store_config.php:34
+msgid "A short textual representation of a month, three letters"
+msgstr "Ayın kısa bir yazı ile sunulması, üç harfli"
+
+#: includes/dashboard/chapter/store_config.php:30
+msgid "We’re giving you maximum flexibility to automatically name your backup files in the way you want. Simply use below keys:"
+msgstr "Yedek dosyalarınızı istediğiniz şekilde otomatik olarak isimlendirmeniz için size maksimum esnekliği sağlıyoruz. Kısaca aşağıdaki şifreleri kullanın:"
+
+#: includes/dashboard/chapter/store_config.php:21
+msgid "Huh? Explain this please"
+msgstr "Efendim? Lütfen bunu açıklayınız"
+
+#: includes/dashboard/chapter/store_config.php:15
+msgid "Your backup(s) will be given the following file name(s)"
+msgstr "Yedeklerinize aşağıdaki dosya isimleri verilecektir"
+
+#: includes/dashboard/chapter/store_config.php:14
+msgid "File name"
+msgstr "Dosya ismi"
+
+#: includes/dashboard/chapter/what_backed_up.php:398
+msgid "(refresh)"
+msgstr "(yenile)"
+
+#: includes/dashboard/chapter/what_backed_up.php:289
+msgid "Databases"
+msgstr "Veritabanları"
+
+#: includes/dashboard/chapter/what_backed_up.php:240
+msgid "Examples:"
+msgstr "Örnekler:"
+
+#: includes/dashboard/chapter/what_backed_up.php:233
+msgid "file path"
+msgstr "dosya adresi"
+
+#: includes/dashboard/chapter/what_backed_up.php:219
+msgid "File names include the extension, e.g. if you select to exclude all files which end with “.psd” at the end then all files in psd format will be excluded."
+msgstr "Dosya isimleri uzantıları içermektedir, örneğin sonunda \".psd\" ile biten bütün dosyaları hariç tutmayı seçerseniz,  bütün psd biçimli dosyalar hariç tutulacaktır."
+
+#: includes/dashboard/chapter/what_backed_up.php:215
+msgid "Add an exclusion rule"
+msgstr "Bir hariç tutma kuralı ekleyin"
+
+#: includes/dashboard/chapter/what_backed_up.php:208
+msgid "(case-sensitive)"
+msgstr "(büyük harf - küçük harfe duyarlı)"
+
+#: includes/dashboard/chapter/what_backed_up.php:208
+msgid "file / folder name"
+msgstr "dosya / klasör ismi"
+
+#: includes/dashboard/chapter/other_config.php:146
+#: includes/dashboard/chapter/store_config.php:141
+#: includes/dashboard/chapter/what_backed_up.php:177
+#: includes/dashboard/chapter/what_backed_up.php:337
+#: includes/dashboard/chapter/where_config.php:67
+msgid "Yes"
+msgstr "Evet"
+
+#: includes/dashboard/chapter/other_config.php:140
+#: includes/dashboard/chapter/store_config.php:136
+#: includes/dashboard/chapter/what_backed_up.php:172
+#: includes/dashboard/chapter/what_backed_up.php:331
+#: includes/dashboard/chapter/where_config.php:61
+msgid "No"
+msgstr "Hayır"
+
+#: includes/dashboard/chapter/what_backed_up.php:113
+msgid "Themes"
+msgstr "Temalar"
+
+#: includes/dashboard/chapter/what_backed_up.php:94
+msgid "Uploads"
+msgstr "Yüklemeler"
+
+#: includes/dashboard/chapter/what_backed_up.php:81
+#: includes/dashboard/chapter/what_backed_up.php:100
+#: includes/dashboard/chapter/what_backed_up.php:119
+#: includes/dashboard/chapter/what_backed_up.php:138
+#: includes/dashboard/chapter/what_backed_up.php:157
+msgid "Details"
+msgstr "Detaylar"
+
+#: includes/dashboard/chapter/what_backed_up.php:76
+msgid "Plugins"
+msgstr "Eklentiler"
+
+#: includes/dashboard/chapter/what_backed_up.php:68
+msgid "Select which files you want to have backed up."
+msgstr "Yedeklenmesini istediğiniz dosyaları seçiniz."
+
+#: includes/dashboard/chapter/what_backed_up.php:55
+msgid "Files"
+msgstr "Dosyalar"
+
+#: includes/dashboard/chapter/what_backed_up.php:23
+msgid "Enter the paths to the directories/folders you want to exclude from your backup (one per line)."
+msgstr "Yedeğinizden hariç tutmak istediğiniz dizinlere/klasörlere ait adresleri giriniz (her satıra bir tane)."
+
+#: includes/dashboard/chapter/what_backed_up.php:22
+msgid "Enter the paths to the files you want to exclude from your backup (one per line)."
+msgstr "Yedeğinizden hariç tutmak istediğiniz dosyalara ait adresleri giriniz (her satıra bir tane)."
+
+#: includes/dashboard/modules/super-quick-migration.php:27
+msgid "Restore now!"
+msgstr "Şimdi geri yükle!"
+
+#: includes/dashboard/modules/super-quick-migration.php:21
+msgid "E.g."
+msgstr "Örneğin"
+
+#: includes/dashboard/modules/super-quick-migration.php:18
+msgid "Paste here the url you got after creating a backup:"
+msgstr "Lütfen buraya yedek oluşturduktan sonra elde ettiğiniz url'yi giriniz:"
+
+#: includes/dashboard/modules/backups-under-table.php:91
+msgid "Load more"
+msgstr "Daha fazla yükle"
+
+#: includes/dashboard/modules/backups-under-table.php:78
+msgid "Cancel upload"
+msgstr "Yüklemeyi iptal et"
+
+#: includes/dashboard/modules/backups-under-table.php:68
+msgid "Upload in progress"
+msgstr "Yükleme yapılıyor"
+
+#: includes/dashboard/modules/backups-under-table.php:52
+msgid "...or"
+msgstr "...veya"
+
+#: includes/dashboard/modules/backups-under-table.php:48
+msgid "Drag & drop your backup file here"
+msgstr "Dosyanızı buraya sürükleyip bırakınız"
+
+#: includes/dashboard/modules/backups-under-table.php:38
+msgid "Delete all selected backups"
+msgstr "Tüm seçilmiş yedekleri sil"
+
+#: includes/dashboard/modules/email-errors.php:21
+#: includes/dashboard/modules/email-errors.php:22
+msgid "Expand"
+msgstr "Genişlet"
+
+#: includes/dashboard/modules/email-errors.php:18
+msgid "We have some notices regarding most recent automated backup."
+msgstr "En son otomatikleştirilmiş yedeğe ait bir kaç uyarımız var."
+
+#: includes/dashboard/chapter/troubleshooting.php:184
+#: includes/dashboard/modules/backup_controller.php:207
+#: includes/dashboard/modules/email-errors.php:21
+msgid "Collapse"
+msgstr "Daralt"
+
+#: includes/dashboard/modules/backup_controller.php:194
+msgid "Manually created backups (i.e. those after click on \"Create backup now!\") are permanently locked, while automatically created backups are by default unlocked."
+msgstr "Otomatik olarak oluşturulan yedekler varsayılan olarak kilitlenmemişken, manuel olarak oluşturulmuş yedekler ( örneğin \"Şimdi yedek oluştur!\"'a tıkladıktan sonra oluşanlar) kalıcı olarak kilitlidir."
+
+#: includes/dashboard/modules/backup_controller.php:176
+msgid "Above times are"
+msgstr "Yukardaki zamanlar"
+
+#: includes/dashboard/modules/backup_controller.php:115
+msgid "Sunday"
+msgstr "Pazar"
+
+#: includes/dashboard/modules/backup_controller.php:114
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: includes/dashboard/modules/backup_controller.php:113
+msgid "Friday"
+msgstr "Cuma"
+
+#: includes/dashboard/modules/backup_controller.php:112
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: includes/dashboard/modules/backup_controller.php:111
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: includes/dashboard/modules/backup_controller.php:110
+msgid "Tuesday"
+msgstr "Salı"
+
+#: includes/dashboard/modules/backup_controller.php:109
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: includes/dashboard/modules/backup_controller.php:94
+msgid "Day"
+msgstr "Gün"
+
+#: includes/dashboard/modules/backup_controller.php:93
+msgid "Week"
+msgstr "Hafta"
+
+#: includes/dashboard/modules/backup_controller.php:92
+msgid "Month"
+msgstr "Ay"
+
+#: includes/dashboard/chapter/other_config.php:191
+#: includes/dashboard/modules/backup_controller.php:77
+msgid "Off"
+msgstr "Kapalı"
+
+#: includes/dashboard/chapter/other_config.php:190
+#: includes/dashboard/modules/backup_controller.php:76
+msgid "On"
+msgstr "Açık"
+
+#: includes/dashboard/modules/backups-table-header.php:37
+msgid "Actions"
+msgstr "Eylemler"
+
+#: includes/dashboard/modules/backups-table-header.php:32
+msgid "Locked?"
+msgstr "Kilitli mi?"
+
+#: includes/dashboard/modules/backups-table-header.php:27
+msgid "Size"
+msgstr "Boyut"
+
+#: includes/dashboard/templates/backup-row-template.php:37
+msgid "Restore"
+msgstr "Geri yükle"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:21
+msgid "at the end of"
+msgstr "sonunda"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:20
+msgid "at the beginning of"
+msgstr "başında"
+
+#: includes/dashboard/settings.php:125
+msgid "Troubleshooting"
+msgstr "Sorun giderme"
+
+#: includes/dashboard/settings.php:101
+msgid "How"
+msgstr "Nasıl"
+
+#: includes/dashboard/settings.php:65
+msgid "Configuration options"
+msgstr "Yapılandırma seçenekleri"
+
+#: includes/dashboard/modules/backup_controller.php:163
+msgid "Learn more"
+msgstr "Daha fazla bilgi edinin"
+
+#: includes/check/system_info.php:111 includes/check/system_info.php:128
+#: includes/check/system_info.php:235 includes/check/system_info.php:461
+#: includes/check/system_info.php:462 includes/check/system_info.php:463
+msgid "Blocked by hosting"
+msgstr "Sunucu tarafından engellendi"
+
+#: includes/check/checker.php:63
+msgid "Using dummy file to check free space (it can take some time)."
+msgstr "Boş alanı ölçmek için yalancı dosya kullanılıyor (biraz zaman alabilir)."
+
+#: includes/check/checker.php:53
+msgid "Great! We have enough space."
+msgstr "Mükemmel! Yeterince alanımız var."
+
+#: includes/ajax.php:1775
+msgid "Entred file size limit, is not correct number."
+msgstr "Girilen dosya boyut limiti, doğru değer değil."
+
+#: includes/ajax.php:1661
+msgid "Your name contains character(s) that are not allowed in file names: "
+msgstr "İsminiz dosya isimlerinde izin verilmeyen karakterler içeriyor:"
+
+#: includes/ajax.php:1660
+msgid "Please, do not use spaces in file name."
+msgstr "Lütfen dosya isimlerinde boşluk kullanmayınız."
+
+#: includes/ajax.php:1659
+msgid "Your name is too short, please create longer one."
+msgstr "İsminiz çok kısa, lütfen daha uzun bir isim oluşturunuz."
+
+#: includes/ajax.php:1658
+msgid "Your name is too long, please change the name."
+msgstr "İsminiz çok uzun, lütfen ismi değiştiriniz."
+
+#: includes/ajax.php:1657
+msgid "Name is required, please fill the input."
+msgstr "İsim gerekli, lütfen alanı doldurunuz."
+
+#: includes/ajax.php:1514
+msgid "Email field cannot be empty, please fill it."
+msgstr "E-posta alanı boş olamaz, lütfen doldurunuz."
+
+#: includes/ajax.php:1510
+msgid "Provided email addess is not valid."
+msgstr "Sağlanan e-posta adresi geçerli değil."
+
+#: includes/ajax.php:1501
+msgid "Entered path is not writable, cannot be used."
+msgstr "Girilen adres yazılabilir değil, kullanılamıyor."
+
+#: includes/ajax.php:1413
+msgid "Downloaded backup may be incomplete (missing manifest)"
+msgstr "İndirilen yedek dosyası tamamlanmamış olabilir (bildirim içermiyor)"
+
+#: includes/extracter/extract.php:1084
+msgid "Temporary files cleaned"
+msgstr "Geçici dosylar silindi"
+
+#: includes/extracter/extract.php:1073
+msgid "Cleaning temporary files..."
+msgstr "Geçici dosyalar temizleniyor..."
+
+#: includes/extracter/extract.php:592
+msgid "Manifest loaded"
+msgstr "Bildiri yüklendi"
+
+#: includes/extracter/extract.php:586
+msgid "Getting backup manifest..."
+msgstr "Yedek bildirisi alınıyor..."
+
+#: includes/extracter/extract.php:576
+msgid "File wp-config saved"
+msgstr "wp-config dosyası kaydedildi"
+
+#: includes/extracter/extract.php:572
+msgid "Saving wp-config file..."
+msgstr "wp-config dosyası kaydediliyor..."
+
+#: includes/dashboard/modals/upload-wrong-file-modal.php:27
+msgid "All backup files are saved as zip."
+msgstr "Tüm yedek dosyaları zip olarak kaydedildi."
+
+#: includes/dashboard/modals/backup-progress-modal.php:69
+msgid "Stop the backup process"
+msgstr "Yedekleme işlemini durdur"
+
+#: includes/dashboard/modals/backup-progress-modal.php:37
+msgid "Preparing backup process..."
+msgstr "Yedekleme işlemi hazırlanıyor..."
+
+#: includes/dashboard/modals/backup-success-modal.php:87
+msgid "Download backup"
+msgstr "Yedeklemeyi indirin"
+
+#: includes/dashboard/modals/backup-success-modal.php:80
+msgid "You can manage the backup on the"
+msgstr "Yedeklemeyi "
+
+#: includes/dashboard/modals/backup-success-modal.php:82
+msgid "- tab."
+msgstr "- sekmesinden yönetebilirsiniz."
+
+#: includes/dashboard/modals/backup-success-modal.php:44
+#: includes/dashboard/modals/backup-success-modal.php:81
+msgid "Manage & Restore Backups"
+msgstr "Yedekleri Yönet & Geriyükle"
+
+#: includes/dashboard/modals/backup-success-modal.php:45
+msgid "- tab, and paste the link there."
+msgstr "- sekmesine gidin, ve bağlantıyı buraya yapıştırın."
+
+#: includes/dashboard/modals/restore-progress-modal.php:20
+msgid "Do not close this window as long as the restoring process is ongoing"
+msgstr "Geri yükleme devam ederken bu pencereyi kapatmayın"
+
+#: includes/dashboard/modals/upload-success-modal.php:27
+msgid "so that the file will show up in your list of backups."
+msgstr "bu sayede dosya yedeklemeler listenizde gözükecektir."
+
+#: includes/dashboard/modals/upload-success-modal.php:26
+msgid "We also triggered a rescan of your local folder automatically,"
+msgstr "Aynı zamanda yerel klasörünüzün otomatik olarak yeniden taranma işlemini başlattık, "
+
+#: includes/dashboard/modals/prenotice-modal.php:62
+msgid "Don’t do backup & close this pop-up​"
+msgstr "Yedekleme yapmayınız & bu pop-up'ı kapatmayınız"
+
+#: includes/dashboard/modals/prenotice-modal.php:57
+msgid "That’s all fine / I don’t care…"
+msgstr "Hepsi gayet iyi / Umursamıyorum..."
+
+#: includes/dashboard/modals/prenotice-modal.php:38
+msgid "You selected to only back up part of your site (not a complete backup)."
+msgstr "Sitenizin sadece bir kısmını yedeklemeyi seçtiniz (tüm siteyi yedeklemeyi değil)."
+
+#: includes/dashboard/modals/prenotice-modal.php:33
+msgid " of data (unzipped) will be backed up."
+msgstr " kadar veri (ayıklanmış olarak) yedeklenecektir."
+
+#: includes/dashboard/modals/prenotice-modal.php:32
+msgid "Based on your selections "
+msgstr "Seçimlerinize bağlı olarak"
+
+#: includes/dashboard/modals/prenotice-modal.php:17
+msgid "We noticed:"
+msgstr "Bir şey tespit ettik:"
+
+#: includes/dashboard/modals/reset-confirm-modal.php:22
+msgid "This action cannot be undone!"
+msgstr "Bu eylem geri alınamaz!"
+
+#: includes/dashboard/modals/reset-confirm-modal.php:21
+msgid "Do you really want to reset the configuration?"
+msgstr "Yapılandırmayı gerçekten sıfırlamak istiyor musunuz?"
+
+#: includes/dashboard/modals/backup-error-modal.php:30
+msgid "There were some hick-ups..."
+msgstr "Birkaç sorun oluştu..."
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:29
+msgid "If you wish to have duplicate change name of the upload."
+msgstr "Eğer kopyasını çıkarmak istiyorsanız yüklemenin adını değiştiriniz."
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:21
+msgid "File already exist"
+msgstr "Dosya halihazırda mevcut"
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:26
+msgid "The file you tried to upload already match,"
+msgstr "Yüklemeye çalıştığınız dosya, "
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:27
+msgid "name and size of file which already,"
+msgstr "isim ve boyut olarak yedek dizininizde "
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:28
+msgid "exist in your backup directory."
+msgstr "halihazırda bulunan dosya ile uyuşuyor."
+
+#: includes/dashboard/modals/restore-success-modal.php:99
+msgid "Download the log"
+msgstr "Geri yükleme işleminin "
+
+#: includes/dashboard/modals/restore-success-modal.php:99
+msgid "of the restoration process"
+msgstr "kayıt dosyasını indirin"
+
+#: includes/dashboard/modals/restore-success-modal.php:47
+msgid "Get our Premium plugin"
+msgstr "Bir sürü güzel özellikten ve destekten yararlanabilmek için "
+
+#: includes/dashboard/modals/restore-success-modal.php:48
+msgid "…to benefit from many cool features & support."
+msgstr "Premium eklentimizi edinin."
+
+#: includes/dashboard/modals/restore-success-modal.php:33
+msgid "Give us a nice rating"
+msgstr "Bize güzel bir değerlendirme verin "
+
+#: includes/dashboard/modals/restore-success-modal.php:34
+msgid "…so that others discover our"
+msgstr "...bu sayede başkaları da eklentimizi keşfetsin "
+
+#: includes/dashboard/modals/restore-success-modal.php:35
+msgid "plugin & benefit from it too."
+msgstr "& eklentimizden faydalansın."
+
+#: includes/dashboard/modals/restore-success-modal.php:20
+msgid "Liked how easy it was? Then PLEASE support the further"
+msgstr "Kolaylığı hoşunuza gitti mi? O halde LÜTFEN aşağıdakileri "
+
+#: includes/dashboard/modals/restore-success-modal.php:21
+msgid "development of our plugins by doing the following:"
+msgstr "gerçekleştirerek eklentilerimizin geliştirilmesine destek olun:"
+
+#: includes/dashboard/modals/pre-restore-modal.php:57
+msgid "Close window & do not restore"
+msgstr "Pencereyi kapat & geri yüklemeyi gerçekleştirme"
+
+#: includes/dashboard/modals/pre-restore-modal.php:36
+msgid "Yes, I understand that. I am sound in mind."
+msgstr "Evet bunu anlıyorum. Akli dengem yerinde."
+
+#: includes/dashboard/modals/pre-restore-modal.php:27
+msgid "All existing folders, files & databases on this site will be overwritten and destroyed for good. *"
+msgstr "Bu sitede mevcut olan bütün klasörler, dosyalar ve veritabanlarının üzerine yazılacak ve bu işlem geri döndürülemeyecek. *"
+
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:26
+msgid "Uploaded file is not valid backup,"
+msgstr "Yüklenen dosya geçerli bir yedekleme değil, "
+
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:27
+msgid "we removed the file from the server."
+msgstr "dosyayı sunucudan kaldırdık."
+
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:21
+msgid "Invalid backup"
+msgstr "Geçersiz yedekleme"
+
+#: includes/dashboard/modals/bfs-modal.php:63
+msgid "Tip: You can also"
+msgstr "Tüyo: Yedeklemeden bazı kısımları hariç tutabilirsiniz, "
+
+#: includes/dashboard/modals/bfs-modal.php:66
+msgid "exclude parts from backup"
+msgstr "bu sayede yedekleme boyut olarak daha küçük olacaktır "
+
+#: includes/dashboard/modals/bfs-modal.php:69
+msgid "which makes it smaller so that you stay below this limit."
+msgstr "ve bu limitin altında kalabilirsiniz."
+
+#: includes/dashboard/modals/bfs-modal.php:51
+msgid "(which includes other cool features too!)"
+msgstr "(bu sürüm diğer güzel özellikleri de içermektedir!)"
+
+#: includes/dashboard/modals/bfs-modal.php:45
+msgid "We made it really affordable and it’s a great way to show your appreciation and support the further development of the plugin :) Thank you!"
+msgstr "Fiyatı gerçekten uygun tuttuk ve bu, eklentinin gelişmesi için memnuniyetinizi ve desteğinizi gösterebileceğiniz harika bir yol :) Teşekkür ederiz!"
+
+#: includes/dashboard/modals/bfs-modal.php:39
+msgid "We also need to buy food"
+msgstr "Biz de yemek yemek zorundayız"
+
+#: includes/dashboard/modals/bfs-modal.php:38
+msgid "Big sites tend to be more support heavy"
+msgstr "Büyük siteler destek yönünden daha kapsamlı olmaktadırlar"
+
+#: includes/dashboard/modals/bfs-modal.php:33
+msgid "For large sites (above %sGB) we point you to the premium plugin, because:"
+msgstr "Büyük siteler için ( %sGB üzerindeki) size premium eklentiyi öneriyoruz, çünkü:"
+
+#: includes/dashboard/modals/bfs-modal.php:29
+msgid "FAT!"
+msgstr "ÇOK BÜYÜK!"
+
+#: includes/dashboard/modals/bfs-modal.php:29
+msgid "Wow, your site is"
+msgstr "Vay canına, siteniz çok "
+
+#: includes/dashboard/modals/delete-confirm-modal.php:36
+msgid "Yes, kill it!"
+msgstr "Evet, kes gitsin!"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:22
+#: includes/dashboard/modals/delete-confirm-modal.php:27
+msgid "You’re sure you want to"
+msgstr "Bu yedeği silmek istediğinizden"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:23
+msgid "delete this backup?"
+msgstr "emin misiniz?"
+
+#: includes/dashboard/modals/after-logs-sent.php:60
+msgid "Go to Support Forum"
+msgstr "Destek Forumu'na gidin"
+
+#: includes/dashboard/modals/after-logs-sent.php:63
+msgid "Your account on Wordpress.org (where you open a new support thread) is different to the one you login to your WordPress dashboard (where you are now). If you don't have a WordPress.org account yet, please sign up at the top right on here. It only takes a minute :) Thank you!"
+msgstr "WordPress.org'daki hesabınız (yeni bir destek mesaj dizini açtığınız yer), WordPress gösterge paneline (şu anda olduğunuz yer) giriş yaptığınız hesaptan farklıdır. Eğer hala bir WordPress hesabınız yoksa, lütfen yukarıda sağda kayıt olunuz. Sadece bir dakika alıyor :) Teşekkür ederiz!"
+
+#: includes/dashboard/translations.php:132
+msgid "Could not update CRON setting now, please check the logs."
+msgstr "CRON ayarını güncelleyemedik, lütfen kayıtları kontrol ediniz."
+
+#: includes/dashboard/translations.php:126
+msgid "Next backup planned: "
+msgstr "Bir sonraki yedekleme planı:"
+
+#: includes/dashboard/translations.php:123
+msgid "Current server time: "
+msgstr "Anlık sunucu saati:"
+
+#: includes/dashboard/translations.php:120
+msgid "Backup process ended, we triggered backup list reload for your."
+msgstr "Yedekleme süreci sona erdi, sizin için yedekleme listesinin yeniden yüklenmesini tetikledik. "
+
+#: includes/dashboard/translations.php:117
+msgid "The URL you provided does not seems to be correct."
+msgstr "Girmiş olduğunuz URL doğru değil gibi."
+
+#: includes/dashboard/translations.php:114
+msgid "There is nothing to backup. Please select database and / or files to backup."
+msgstr "Yedeklenecek bir şey mevcut değil. Lütden yedeklenecek dosyaları ve/veya veritabanlarını seçiniz."
+
+#: includes/dashboard/translations.php:111
+msgid "We are processing your files, please wait till it complete. You can check the progress in the \"What will be backed up?\" tab."
+msgstr "Dosyalarınızı işliyoruz, lütfen tamamlanana kadar bekleyiniz. Süreci \" Neler yedeklenecek?\" sekmesinden kontrol edebilirsiniz."
+
+#: includes/dashboard/translations.php:105
+msgid "Could not lock this backup due to unknown error, please reload and try again."
+msgstr "Bu yedeklemeyi bilinmeyen bir hata sebebiyle kilitleyemedik, lütfen tekrar yükleyip deneyiniz."
+
+#: includes/dashboard/translations.php:93
+msgid "Could not find this backup, it may be deleted or there was an error with getting the name."
+msgstr "Bu yedeklemeyi bitiremedik, silinmiş olabilir veya isimin elde edilmesinde bir hata olmuş olabilir. "
+
+#: includes/dashboard/translations.php:84
+msgid "Cannot remove backup(s) file(s) due to unknown error."
+msgstr "Bilinmeyen hataya bağlı olarak yedekleme dosyalarını kaldıramadık. "
+
+#: includes/dashboard/translations.php:81
+msgid "Backup(s) removed successfully."
+msgstr "Yedekler başarıyla kaldırıldı."
+
+#: includes/dashboard/translations.php:78
+msgid "File already exist in backup directory."
+msgstr "Dosya halihazırda yedekleme dizininde mevcut. "
+
+#: includes/dashboard/translations.php:72
+msgid "File has been uploaded successfully."
+msgstr "Dosya başarıyla yüklendi. "
+
+#: includes/dashboard/translations.php:66
+msgid "File upload started."
+msgstr "Dosya yüklemesi başlatıldı."
+
+#: includes/dashboard/translations.php:63
+msgid "You have to confirm that you understand the risk."
+msgstr "Alınacak riski anladığınızı teyit etmeniz gereklidir."
+
+#: includes/dashboard/translations.php:42
+msgid "Text copied successfully"
+msgstr "Metin başarıyla kopyalandı"
+
+#: includes/constants.php:141
+msgid "This feature isn’t ready yet in the premium plugin, that’s why you can buy it at a <b>big discount</b>"
+msgstr "Bu özellik premium eklentide henüz mevcut değil, bu yüzden <b>büyük bir indirim</b> ile satın alabilirsiniz"
+
+#: includes/dashboard/chapter/other_config.php:489
+msgid "If you're looking for other options not listed above, check out the"
+msgstr "Yukarıdaki listede olmayan özellikler arıyorsanız, sorun gidermeye"
+
+#: includes/dashboard/chapter/other_config.php:489
+msgid "troubleshooting"
+msgstr "göz atınız"
+
+#: includes/dashboard/chapter/other_config.php:482
+msgid "Delete all backups (created by this plugin)"
+msgstr "Tüm yedekleri sil (bu eklenti tarafından oluşturulmuş olan)"
+
+#: includes/dashboard/chapter/other_config.php:476
+msgid "Delete all plugins settings (this means if you install it again, you have to configure it again)"
+msgstr "Tüm eklenti ayarlarını sil (bu, eğer tekrar kurarsanız, tekrar yapılandırmanız gerektiği anlamına gelir)"
+
+#: includes/dashboard/chapter/other_config.php:468
+msgid "de-installed:"
+msgstr "kaldırıldığında:"
+
+#: includes/dashboard/chapter/other_config.php:271
+msgid "If you selected the \"schedule backups\" - option at the top of the plugin, and backups are not created, then please check out the Cron settings. Or just  ask us in the forum."
+msgstr "Eğer eklentinin üst kısmında bulunan \"yedeklemeleri planla\"yı seçtiyseniz, ve yedeklemeler yaratılmadıysa, lütfen Cron ayarlarını kontrol ediniz. Veya bize forumda sorunuz."
+
+#: includes/dashboard/chapter/other_config.php:248
+msgid "Change the key (which is part of above url) if you suspect an unauthorized person got access to it."
+msgstr "Eğer izni olmayan biri tarafından giriş yapıldığını düşünüyorsanız, (yukardaki url'nin bir parçası olan) anahtar kodu değiştiriniz."
+
+#: includes/dashboard/chapter/other_config.php:239
+msgid "Key:"
+msgstr "Anahtar Kod:"
+
+#: includes/dashboard/chapter/other_config.php:236
+msgid "Make sure you keep this url a secret. For safety reasons this only works once per hour & you’ll get emailed when it used."
+msgstr "Bu url'yi gizli tuttuğunuzdan emin olun. Güvenlik nedeniyle bu sadece saate bir çalışır ve kullanıldığı zaman bir e-posta bildirimi alırsınız."
+
+#: includes/dashboard/chapter/other_config.php:235
+msgid "Copy & paste this url into a browser and press enter to trigger the backup creation."
+msgstr "Bu url'yi bir tarayıcıya kopyalayıp yapıştırın ve yedek oluşturmayı başlatmak için enter tuşuna basın."
+
+#: includes/dashboard/chapter/other_config.php:229
+#: includes/dashboard/modals/after-logs-sent.php:45
+#: includes/dashboard/modals/backup-success-modal.php:35
+msgid "Copy"
+msgstr "Kopyala"
+
+#: includes/dashboard/chapter/other_config.php:215
+msgid "Trigger by URI"
+msgstr "URI ile başlat"
+
+#: includes/dashboard/chapter/other_config.php:199
+msgid "Activate this so that a backup is created before there are automatic WordPress updates (WordPress core, plugins, themes, or language files)."
+msgstr "Bunu aktive edin ki otomatik WordPress güncellemeleri (WordPress temelli veriler, eklentiler, temalar veya dil dosyaları) yapılmadan önce yedekleme oluşturulsun."
+
+#: includes/dashboard/chapter/other_config.php:169
+msgid "At the top of the plugin you can create a backup instantly (\"Create backup now\" - button), or schedule them. Here are more options which trigger the backup creation:"
+msgstr "Eklentinin üst kısmında anında bir yedekleme oluşturabilirsiniz (\"Şimdi yedek oluşturun\" - tuşu), veya planlayabilirsiniz. Yedekleme oluşumunu başlatmak için diğer seçenekler:"
+
+#: includes/dashboard/chapter/other_config.php:165
+msgid "Backup triggers"
+msgstr "Yedekleme tetikleyiciler"
+
+#: includes/dashboard/chapter/other_config.php:158
+msgid "If you want to also receive the backup file as attachment of the email (for backup notifications), please set this in chapter Where will backups be stored?."
+msgstr "Eğer ayrıca yedek dosyasını e-postaya (yedekleme bildirimleri için) iliştirilmiş bir biçimde almak istiyorsanız, lütfen \"Yedekler nerede depolanacak?\" bölümünde bunu ayarlayınız."
+
+#: includes/dashboard/chapter/other_config.php:134
+msgid "Add logs to emails?"
+msgstr "Kayırlar e-postaya eklensin mi?"
+
+#: includes/dashboard/chapter/other_config.php:117
+msgid "(Make sure that your hosting does not block mail functions, otherwise you have to configure SMTP mail.)"
+msgstr "(Sunucunuzun e-posta fonksiyonlarını bloke etmediğinden emin olun, yoksa SMTP postasını yapılandırmak zorunda kalırsınız.)"
+
+#: includes/dashboard/chapter/other_config.php:115
+msgid "There are (new) issues with scheduling (creating automatic backups)"
+msgstr "Planlama (otomatik yedekleme oluşturma) ile ilgili (yeni) sorunlar oluştu"
+
+#: includes/dashboard/chapter/other_config.php:98
+msgid "Restore succeeded"
+msgstr "Geri yükleme başarılı oldu"
+
+#: includes/dashboard/chapter/other_config.php:82
+msgid "Backups was created successfully"
+msgstr "Yedekler başarılı bir şekilde oluşturuldu"
+
+#: includes/dashboard/chapter/other_config.php:72
+msgid "You'll get an email if..."
+msgstr "Aşağıdakilerin geçerli olması durumunda bir e-posta alacaksınız:"
+
+#: includes/dashboard/chapter/other_config.php:12
+msgid "This will be triggered on plugin removal via WordPress plugins tab"
+msgstr "Bu WordPress eklenti sekmesi üzerinden eklenti silmede başlatılacaktır."
+
+#: includes/dashboard/chapter/troubleshooting.php:259
+msgid "If you’re looking for other options not listed above, check out the"
+msgstr "Eğer yukarıda olmayan diğer seçenekleri arıyorsanız, "
+
+#: includes/dashboard/chapter/other_config.php:489
+#: includes/dashboard/chapter/troubleshooting.php:259
+msgid "chapter as they might be there."
+msgstr "bölümü kontrol edin, orada olabilirler."
+
+#: includes/dashboard/chapter/troubleshooting.php:255
+msgid "Please"
+msgstr "Eklenti yapılandırmasını sıfırlamak için "
+
+#: includes/dashboard/chapter/troubleshooting.php:255
+msgid "click here"
+msgstr "lütfen"
+
+#: includes/dashboard/chapter/troubleshooting.php:255
+msgid "to reset plugin configuration."
+msgstr "buraya tıklayın."
+
+#: includes/dashboard/chapter/troubleshooting.php:194
+msgid "(e.g. for easy sharing with us, so that we can debug)"
+msgstr "(örneğin hata giderebilmemiz amacıyla kolaylıkla bizimle paylaşmak için)"
+
+#: includes/dashboard/chapter/troubleshooting.php:131
+msgid "Here is some information about your site, which may help to debug if there is an issue:"
+msgstr "Burada eğer bir sorun oluşursa hata giderebilmeniz için, siteniz ile ilgili bir kaç bilgi verilmiştir:"
+
+#: includes/dashboard/chapter/troubleshooting.php:184
+#: includes/dashboard/chapter/troubleshooting.php:185
+msgid "See more"
+msgstr "Daha fazlasına göz at"
+
+#: includes/dashboard/chapter/troubleshooting.php:76
+msgid "Check advanced options"
+msgstr "Kendiniz çözebilmek için "
+
+#: includes/dashboard/chapter/troubleshooting.php:80
+msgid "...in an effort to fix it yourself. Be sure you know what you are doing!"
+msgstr "...gelişmiş ayarlara göz atın. Ne yaptığınızı bildiğinizden emin olun!"
+
+#: includes/dashboard/chapter/troubleshooting.php:60
+msgid "Get the Premium Plugin"
+msgstr "Premium Eklentiyi edinin "
+
+#: includes/dashboard/chapter/troubleshooting.php:64
+msgid "...which includes support, so we can help you in more detail if you get stuck."
+msgstr "...Premium ürünümüze destek dahildir, bu sayede sizlere bir sorun yaşamanız durumunda daha detaylıca yardımcı olabiliriz."
+
+#: includes/dashboard/chapter/troubleshooting.php:29
+msgid "If something doesn't work, you have several options - pick one:"
+msgstr "Eğer bir şey çalışmazsa, birkaç seçeneğiniz var - bir tanesini seçin:"
+
+#: includes/constants.php:162
+msgid "Coming soon also in the free plugin"
+msgstr "Aynı zamanda ücretsiz eklentide de yakında hizmetinizde "
+
+#: includes/constants.php:162
+msgid "stay tuned!"
+msgstr "beklemede kalın!"
+
+#: includes/dashboard/chapter/where_config.php:76
+msgid "Select “Yes” if you want your (manually created) backups to be available via a direct link. This makes migration from one site to another super-fast."
+msgstr "Eğer (manuel olarak oluşturulmuş) yedeklerinizin doğrudan bağlantı aracılığıyla ulaşılabilir olmasını istiyorsanız \"Evet\"'i seçiniz. Bu bir siteden diğer siteye taşıma işlemini çok hızlı bir biçimde yapmaktadır."
+
+#: includes/dashboard/chapter/where_config.php:55
+msgid "Accessible via direct link?"
+msgstr "Doğrudan bağlantı ile ulaşılabilir mi?"
+
+#: includes/dashboard/chapter/where_config.php:50
+msgid "That’s where your local backups will be stored. If you picked external storage this folder will also be used (to store your backup temporarily, until it is uploaded to the external storage)."
+msgstr "Burası yerel yedeklerinizin saklanacağı yerdir. Eğer harici saklama alanı seçtiyseniz bu dosya da kullanılacaktır (harici saklama alanına yüklenene kadar, geçici olarak yedeğinizi saklamak için)."
+
+#: includes/dashboard/chapter/where_config.php:44
+msgid "Backup directory path:"
+msgstr "Yedek dizin adresi:"
+
+#: includes/dashboard/chapter/where_config.php:31
+msgid "(on this web server)"
+msgstr "(bu web sunucusundaki)"
+
+#: includes/dashboard/chapter/store_config.php:152
+msgid "chapter."
+msgstr "bölümüne gidiniz."
+
+#: includes/dashboard/chapter/store_config.php:152
+msgid "For other security settings, e.g. who can access your backup directories, please go to the"
+msgstr "Diğer güvenlik ayarları için, örneğin yedek dizininize kimin ulaşabileceği gibi, lütfen "
+
+#: includes/dashboard/chapter/store_config.php:108
+msgid "“ZIP” is the standard choice (compression level 1). Use “Tar” (compression level 2) or Tar.gz (compression level 5) if you want to have more compression (i.e. smaller file sizes). However, this will also put more load on the backup creation."
+msgstr "\"ZIP\" standart seçenektir (sıkıştırma seviyesi 1). Eğer daha fazla sıkıştırma (örneğin daha küçük dosya boyutu) sağlamak istiyorsanız \"Tar\" (sıkıştırma seviye 2) veya Tar.gz (sıkıştırma seviye 5) kullanın. Fakat bu, yedekleme oluşturulurken daha fazla yük bindirecektir."
+
+#: includes/dashboard/chapter/store_config.php:63
+msgid "Please select the compression method of your backup files:"
+msgstr "Lütfen yedek dosyalarınızın sıkıştırılma yöntemini seçiniz:"
+
+#: includes/dashboard/chapter/store_config.php:54
+msgid "Hide"
+msgstr "Gizle"
+
+#: includes/dashboard/chapter/store_config.php:43
+msgid "Uppercase Ante meridiem and Post meridiem"
+msgstr "Büyük harfle öğleden önce ve öğleden sonra"
+
+#: includes/dashboard/chapter/store_config.php:42
+msgid "Lowercase Ante meridiem and Post meridiem"
+msgstr "Küçük harfle öğleden önce ve öğleden sonra"
+
+#: includes/dashboard/chapter/store_config.php:41
+msgid "A two digit representation of a year"
+msgstr "Bir yılın iki basamaklık temsili gösterimi"
+
+#: includes/dashboard/chapter/store_config.php:33
+#: includes/dashboard/chapter/store_config.php:40
+msgid "A full numeric representation of a year, 4 digits"
+msgstr "Bir yılın numerik olarak tam gösterimi, 4 basamaklı"
+
+#: includes/dashboard/chapter/what_backed_up.php:399
+msgid "See the list of files you excluded."
+msgstr "Hariç tuttuğunuz dosyaların listesine bakınız."
+
+#: includes/dashboard/chapter/what_backed_up.php:397
+msgid "With above exclusion rules you excluded"
+msgstr "Yukarıdaki hariç tutma kuralları dahilinde "
+
+#: includes/dashboard/chapter/what_backed_up.php:397
+msgid "of data, which means your backup will be about"
+msgstr "kadar veriyi dahil etmediniz, bu demek oluyor ki yedeklemeniz sıkıştırılmamış haliyle "
+
+#: includes/dashboard/chapter/what_backed_up.php:397
+msgid "large, unzipped."
+msgstr "büyüklükte olacaktır."
+
+#: includes/dashboard/chapter/what_backed_up.php:393
+msgid "Summary / Sanity check"
+msgstr "Özet / Mantık kontrolü"
+
+#: includes/dashboard/chapter/what_backed_up.php:359
+#: includes/dashboard/chapter/what_backed_up.php:375
+#: includes/dashboard/chapter/what_backed_up.php:383
+msgid "Exclude"
+msgstr "Spam yorumları"
+
+#: includes/dashboard/chapter/what_backed_up.php:359
+msgid "spam comments"
+msgstr "hariç tut"
+
+#: includes/dashboard/chapter/what_backed_up.php:363
+msgid "cache files"
+msgstr "devredışı eklentileri"
+
+#: includes/dashboard/chapter/what_backed_up.php:367
+msgid "deactivated plugins"
+msgstr "hata giderim kayıtlarını"
+
+#: includes/dashboard/chapter/what_backed_up.php:371
+msgid "debug logs"
+msgstr "tüm kullanılmayan temaları"
+
+#: includes/dashboard/chapter/what_backed_up.php:375
+msgid "all non-used themes"
+msgstr "küçük görselleri"
+
+#: includes/dashboard/chapter/what_backed_up.php:379
+msgid "thumbnails"
+msgstr "sonraki sürümleri"
+
+#: includes/dashboard/chapter/what_backed_up.php:383
+msgid "post revisions"
+msgstr "hariç tut"
+
+#: includes/dashboard/chapter/what_backed_up.php:363
+#: includes/dashboard/chapter/what_backed_up.php:367
+#: includes/dashboard/chapter/what_backed_up.php:371
+#: includes/dashboard/chapter/what_backed_up.php:379
+msgid "Exclude all"
+msgstr "Tüm önbellek dosyalarını"
+
+#: includes/dashboard/chapter/what_backed_up.php:349
+msgid "With the \"Files\" and \"Databases\" options above you can already define what to include or exclude in your backup. However, you may want to exclude elements in your backups where you are not sure in which file or table they reside. For example, you may want to exclude all spam comments in your backups. This is what the \"smart\" exclusion rules are for. This is also a good way to clean your site of things you do not want."
+msgstr "Yukarıdaki \"Dosyalar\" ve \"Veritabanları\" seçenekleri ile hali hazırda yedeklerinizde neyi dahil edip neyi hariç tutacağınızı tanımlayabilirsiniz. Buna rağmen, nerede olduğundan emin olmadığınız dosyaları veya tabloları yedeğinizin dışında tutmak isteyebilirsiniz. Örneğin, tüm istenmeyen yorumları yedeğinizin dışında tutmak isteyebilirsiniz. \"Akıllı\" hariç tutma kuralları bunun için vardır. Bu ayrıca sitenizi istemediğiniz şeylerden temizlemenin iyi bir yoludur."
+
+#: includes/dashboard/chapter/what_backed_up.php:326
+msgid "Want to apply \"smart\" exclusions rules?"
+msgstr "\"Akıllı\" hariç tutma kurallarını uygulamak ister misiniz?"
+
+#: includes/dashboard/chapter/what_backed_up.php:312
+#: includes/dashboard/translations.php:13
+msgid "Exclude certain tables from backups"
+msgstr "Yedeklerden belirli tabloları hariç tut"
+
+#: includes/dashboard/chapter/what_backed_up.php:301
+msgid "All databases (on the domain"
+msgstr "Tüm veritabanları (domaindeki),"
+
+#: includes/dashboard/chapter/what_backed_up.php:301
+msgid "will be backed up unless you exclude them by defining exclusion rules."
+msgstr "eğer onları hariç tutma kuralları tanımlayarak hariç tutmadıysanız, yedeklenecektir."
+
+#: includes/dashboard/chapter/what_backed_up.php:258
+msgid "directory path"
+msgstr " dizin adresi"
+
+#: includes/dashboard/chapter/what_backed_up.php:223
+msgid "The folder where backups are stored (i.e. the backups which this plugin creates) is always excluded, to prevent you from taking backups of your own backups."
+msgstr "Kendi yedeklerinizin yedeklerini almanızı önlemek adına, yedeklerin saklandığı dosya (örneğin eklentinin oluşturduğu yedekler) her zaman hariç tutulmaktadır. "
+
+#: includes/dashboard/chapter/what_backed_up.php:198
+msgid "Do not backup files which are larger than"
+msgstr "Şundan daha büyük olan dosyaları yedeklemeyin"
+
+#: includes/dashboard/chapter/what_backed_up.php:193
+#: includes/dashboard/chapter/what_backed_up.php:208
+#: includes/dashboard/chapter/what_backed_up.php:233
+#: includes/dashboard/chapter/what_backed_up.php:258
+msgid "Exclude by"
+msgstr "Dosya boyutu üzerinden"
+
+#: includes/dashboard/chapter/what_backed_up.php:193
+msgid "file size"
+msgstr "hariç tutun"
+
+#: includes/dashboard/chapter/what_backed_up.php:168
+msgid "Want to exclude files based on filters?"
+msgstr "Filtrelere bağlı olarak hariç tutmak istediğiniz dosya var mı?"
+
+#: includes/dashboard/chapter/what_backed_up.php:151
+msgid "WordPress installation"
+msgstr "WordPress kurulumu"
+
+#: includes/dashboard/chapter/what_backed_up.php:132
+msgid "Everything else in wp-content"
+msgstr "Wp-content içindeki diğer her şey"
+
+#: includes/dashboard/chapter/what_backed_up.php:47
+msgid "Here you can define what exactly will be included in the backup. If your site is very large it may make sense to only backup certain parts of it."
+msgstr "Burada yedeklemeye nelerin dahil olacağını tanımlayabilirsiniz. Eğer sitenin boyutu büyükse sadece belli bölümlerini yedeklemek mantıklı olabilir."
+
+#: includes/dashboard/chapter/what_backed_up.php:24
+msgid "You can already exclude files based on filters (click on “Yes” below), however in the premium plugin you’ll also be able to browse through them."
+msgstr "Halihazırda filtrelere bağlı olarak bazı dosyaları hariç tutabilirsiniz (aşağıda \"Evet\"'e tıklayınız), lakin premium eklentide ayrıca bu dosyaları tarayabileceksiniz."
+
+#: includes/dashboard/chapter/what_backed_up.php:20
+msgid "Here are stored all plugin, theme, WordPress installation files, but also files from Media library and other folders and files located in your server’s site directory. Note that WordPress keeps records of files such as Media library in the Databases, so you should also backup Databases if you want WordPress to “see” e.g. recovered media files. Size here is the total size you can get."
+msgstr "Burada tüm eklenti, tema, WordPress kurulum dosyaları ve ayrıca Medya arşivinde bulunan dosyalar ve sunucunuzun site dizininde bulunan öteki dosyalar ve klasörler saklanmaktadır. WordPress'in Medya arşivi gibi dosyaları kayıt altında tuttuğunu unutmayın, bu sebeple eğer WordPress'in, örneğin kurtarılmış medya dosyalarını vesaire \"görebilmesini\" istiyorsanız, aynı zamanda Veritabanlarını da yedeklediğinizden emin olun. Buranın boyutu, toplamda edinebileceğiniz boyuttur."
+
+#: includes/dashboard/modules/super-quick-migration.php:12
+msgid "Super-quick migration"
+msgstr "Süper-hızlı taşıma"
+
+#: includes/dashboard/modules/backups-under-table.php:56
+msgid "Browse for file"
+msgstr "Dosyaya gözatın"
+
+#: includes/dashboard/modules/backups-under-table.php:84
+msgid "Alternatively, you can place the files (e.g. via FTP) into your local backup directory"
+msgstr "Alternatif olarak, dosyaları (örneğin FTP ile) yerel yedek dizininize veya"
+
+#: includes/dashboard/modules/backups-under-table.php:84
+msgid "or remote storage, and then use the \"Rescan for backup files\" - option above to make them show up in the list."
+msgstr "uzak depolama birimine saklayabilir, ardından yukarıdaki \"Yedek dosyalar için yeniden tara\" özelliğini kullanarak listede gözükmelerini sağlayabilirsiniz."
+
+#: includes/dashboard/modules/backups-under-table.php:28
+msgid "Rescan for backup files:"
+msgstr "Yedek dosyalarını yeniden tara:"
+
+#: includes/dashboard/chapter/where_config.php:30
+#: includes/dashboard/modules/backups-under-table.php:29
+msgid "Locally"
+msgstr "Yerel"
+
+#: includes/dashboard/modules/backups-under-table.php:30
+msgid "Remotely"
+msgstr "Uzak depolama birimi"
+
+#: includes/dashboard/modules/backups-under-table.php:19
+msgid "Upload backup files"
+msgstr "Yedekleme dosyalarını yükle"
+
+#: includes/dashboard/modules/backup-ongoing.php:27
+msgid "Click to see status quo"
+msgstr "Mevcut durumu görmek için tıklayınız"
+
+#: includes/dashboard/modules/backup-ongoing.php:23
+msgid "Backup in progress!"
+msgstr "Yedekleme yapılıyor!"
+
+#: includes/dashboard/modules/email-errors.php:25
+msgid "Dismiss"
+msgstr "Kaldır"
+
+#: includes/dashboard/modules/backup_controller.php:186
+msgid "We suggest to"
+msgstr "Yalnızca 2 veya 3 yedekleme"
+
+#: includes/dashboard/modules/backup_controller.php:187
+msgid "only keep 2 or 3 backups"
+msgstr "tutmanızı öneriyoruz"
+
+#: includes/dashboard/modules/backup_controller.php:188
+msgid "otherwise you may run out of space."
+msgstr "öteki türlü boş alanınız kalmayabilir."
+
+#: includes/dashboard/modules/backup_controller.php:191
+msgid "Locked backups will <u>not</u> be deleted"
+msgstr "Kilitlenmiş yedekler otomatik olarak"
+
+#: includes/dashboard/modules/backup_controller.php:192
+msgid "automatically. Those are indicated by a lock sign"
+msgstr "<u>silinmeyecektir</u>. Bunlar bir kilit simgesi ile gösterilirler"
+
+#: includes/dashboard/modules/backup_controller.php:197
+msgid "tab"
+msgstr "sekmesinden değiştirebilirsiniz"
+
+#: includes/dashboard/modules/backup_controller.php:195
+msgid "You can change their lock status on the"
+msgstr "Bu yedeklerin kilit durumunu "
+
+#: includes/dashboard/modules/backup_controller.php:200
+msgid "For"
+msgstr "Yedeklemeleriniz"
+
+#: includes/dashboard/modules/backup_controller.php:201
+msgid "other triggers"
+msgstr "oluşturulduğu zamanki"
+
+#: includes/dashboard/modules/backup_controller.php:202
+msgid "when your backups are created, please go"
+msgstr "diğer tetiklemeler için, lütfen "
+
+#: includes/dashboard/modules/backup_controller.php:203
+msgid "here"
+msgstr "buraya gidiniz"
+
+#: includes/dashboard/modules/backup_controller.php:181
+msgid "There needs to be"
+msgstr "En az bir"
+
+#: includes/dashboard/modules/backup_controller.php:182
+msgid "at least one visitor"
+msgstr "ziyaretçi olması gerek"
+
+#: includes/dashboard/modules/backup_controller.php:177
+msgid "server times"
+msgstr "sunucu zamanlarıdır"
+
+#: includes/dashboard/modules/backup_controller.php:147
+msgid "...and keep the last"
+msgstr "...ve otomatik olarak"
+
+#: includes/dashboard/modules/backup_controller.php:157
+msgid "backups that have been created automatically."
+msgstr "oluşturulmuş son yedeklemeleri tutun."
+
+#: includes/dashboard/modules/backup_controller.php:127
+msgid "hours and"
+msgstr "saat ve"
+
+#: includes/dashboard/modules/backup_controller.php:136
+msgid "minutes"
+msgstr "dakika"
+
+#: includes/dashboard/modules/backup_controller.php:118
+msgid "at"
+msgstr "-"
+
+#: includes/dashboard/modules/backup_controller.php:97
+msgid "on"
+msgstr "-"
+
+#: includes/dashboard/modules/backup_controller.php:89
+msgid "Create a backup every"
+msgstr "Yedekleme rutini:"
+
+#: includes/dashboard/modules/backup_controller.php:68
+msgid "Automatic backups creation"
+msgstr "Otomatik yedekleme oluşturma"
+
+#: includes/dashboard/modules/backup_controller.php:39
+msgid "Create backup"
+msgstr "Şimdi"
+
+#: includes/dashboard/modules/backup_controller.php:39
+msgid "now!"
+msgstr "yedekle!"
+
+#: includes/dashboard/modules/backup_controller.php:56
+msgid "... or have"
+msgstr "...veya yedeklemeleri"
+
+#: includes/dashboard/modules/backup_controller.php:57
+msgid "backups created automatically"
+msgstr "otomatik olarak oluştur"
+
+#: includes/dashboard/modules/backups-table-header.php:36
+msgid "Move over the icons to see what you can do with the backup(s)"
+msgstr "Yedeklemelerle neler yapabileceğinizi görmek için imleci simgenin üzerine götürün"
+
+#: includes/dashboard/modules/backups-table-header.php:31
+msgid "Locked backups can only be deleted manually. Unlocked backups get deleted automatically according to the deletion processes which you defined at the top of the &quot;Create backups&quot; - tab. Click on the icon(s) to change the lock status."
+msgstr "Kilitlenmiş yedekler sadece manuel olarak silinebilir. Kilitlenmemiş yedekler &quot;Yedekleme oluşturun&quot; sekmesinin yukarısında belirlediğiniz silinme aşamalarına göre otomatik olarak silinir."
+
+#: includes/dashboard/modules/backups-table-header.php:26
+msgid "Size of your backup file"
+msgstr "Yedekleme dosyanızın boyutu"
+
+#: includes/dashboard/modules/backups-table-header.php:22
+msgid "Filename"
+msgstr "Dosya adı"
+
+#: includes/dashboard/modules/backups-table-header.php:21
+msgid "The name of your backup. To see the logic which default names your backups get, go to chapter &quot;How backups will be stored&quot;"
+msgstr "Yedeğinizin ismi. Yedeklerinize verilen varsayılan isimlerin mantığını görmek için, &quot;Yedekler nasıl saklanacak&quot bölümüne gidin;"
+
+#: includes/dashboard/modules/backups-table-header.php:16
+msgid "Backup date"
+msgstr "Yedekleme tarihi"
+
+#: includes/dashboard/modules/backups-table-header.php:15
+msgid "When your backup was created, in server time"
+msgstr "Yedeklemenizin, sunucu zamanı dahilinde, oluşturulduğu zaman"
+
+#: includes/dashboard/templates/backup-row-template.php:40
+msgid "Delete this backup"
+msgstr "Bu yedeklemeyi sil"
+
+#: includes/dashboard/templates/backup-row-template.php:35
+msgid "Restore this backup on this site"
+msgstr "Bu yedeklemeyi bu siteye geri yükle"
+
+#: includes/dashboard/templates/backup-row-template.php:31
+msgid "Download log file which was created at time of backup"
+msgstr "Yedekleme anında oluşturulmuş kayıt dosyasını indirin"
+
+#: includes/dashboard/templates/backup-row-template.php:29
+msgid "Copy link to backup file for super-quick migration"
+msgstr "Süper-hızlı taşıma için yedekleme dosyasının bağlantısını kopyalayınız"
+
+#: includes/dashboard/templates/backup-row-template.php:27
+msgid "Download the backup file. Click on it downloads it"
+msgstr "Yedekleme dosyasını indirin. Üzerine tıklayarak indirebilirsiniz"
+
+#: includes/dashboard/templates/backup-row-template.php:23
+msgid "Unlock backup files"
+msgstr "Yedekleme dosyalarının kilidini aç"
+
+#: includes/dashboard/templates/backup-row-template.php:22
+msgid "Lock backup files"
+msgstr "Yedekleme dosyalarını kilitle"
+
+#: includes/constants.php:155
+msgid "Coming soon in the Premium Plugin"
+msgstr "Premium Eklentiye yakında geliyor"
+
+#: includes/dashboard/settings.php:175 includes/dashboard/settings.php:177
+msgid "You have not created any backups yet."
+msgstr "Henüz bir yedekleme oluşturmadınız."
+
+#: includes/dashboard/templates/exclusion-rule-template.php:14
+msgid "Exclude if string"
+msgstr "Eğer söz konusu metin"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:16
+msgid "appears"
+msgstr "aşağıdaki yerlerde gözüküyorsa, "
+
+#: includes/dashboard/templates/exclusion-rule-template.php:19
+msgid "anywhere in"
+msgstr "hariç tut:"
+
+#: includes/dashboard/modules/backup_controller.php:98
+#: includes/dashboard/templates/exclusion-rule-template.php:24
+msgid "the"
+msgstr "-"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:27
+msgid "file name"
+msgstr "dosya isminde"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:28
+msgid "folder name"
+msgstr "klasör isminde"
+
+#: includes/dashboard/settings.php:40
+msgid "Welcome to Backup & Migration!"
+msgstr "Yedekleme & Taşıma'ya hoş geldiniz!"
+
+#: includes/dashboard/settings.php:46
+msgid "Create backup(s)"
+msgstr "Yedekleme oluştur"
+
+#: includes/dashboard/modules/backup_controller.php:196
+#: includes/dashboard/settings.php:49
+msgid "Manage & Restore Backup(s)"
+msgstr "Yedekleri Yönet & Geriyükle"
+
+#: includes/dashboard/settings.php:142
+msgid "Your saved backups:"
+msgstr "Kaydedilmiş yedekleriniz:"
+
+#: includes/dashboard/chapter/store_config.php:152
+#: includes/dashboard/chapter/troubleshooting.php:259
+#: includes/dashboard/settings.php:115
+msgid "Other options"
+msgstr "Diğer seçenekler"
+
+#: includes/dashboard/settings.php:89
+msgid "Where"
+msgstr "Yedeklemeler"
+
+#: includes/dashboard/settings.php:89 includes/dashboard/settings.php:101
+msgid "shall the backup(s) be stored?"
+msgstr "nerede saklanmalı?"
+
+#: includes/dashboard/settings.php:77
+msgid "What"
+msgstr "Neler"
+
+#: includes/dashboard/settings.php:77
+msgid "will be backed up?​"
+msgstr "yedeklenecek?"
+
+#: includes/dashboard/settings.php:69
+msgid "+ Add / manage configuration set(s)​"
+msgstr "+ Yapılandırma gruplarını ekle / yönet"
+
+#: includes/check/checker.php:62
+msgid "Disk free space function is disabled by hosting."
+msgstr "Diskin boş yer fonksiyonu sunucu tarafından devre dışı bırakıldı."
+
+#: includes/check/checker.php:51
+msgid "There is "
+msgstr "Boşta"
+
+#: includes/check/checker.php:51
+msgid " MB free."
+msgstr "MB alan mevcut."
+
+#: includes/ajax.php:2098
+msgid "Removing file from backup (due to path rules): "
+msgstr "Dosya yedeklemeden kaldırılıyor (adres kuralları sebebiyle):"
+
+#: includes/ajax.php:2089
+msgid "Removing file from backup (due to exclude rules): "
+msgstr "Dosya yedeklemeden kaldırılıyor (hariç bırakma kuralları sebebiyle):"
+
+#: includes/ajax.php:2080
+msgid "Removing file from backup (too large) "
+msgstr "Dosya yedeklemeden kaldırılıyor (boyutu çok büyük)"
+
+#: includes/ajax.php:1513
+msgid "Title field is required, please fill it."
+msgstr "Başlık alanı zorunludur, lütfen doldurunuz."
+
+#: includes/ajax.php:1512
+msgid "Your email title is too short, please use longer one (at least 3 chars)."
+msgstr "E-posta isminiz çok kısa, lütfen daha uzun bir e-posta kullanınız (en az 3 karakter)."
+
+#: includes/ajax.php:1511
+msgid "Your email title is too long, please change the title (max 64 chars)."
+msgstr "E-posta isminiz çok uzun, lütfen değiştiriniz (en fazla 64 karakter)."
+
+#: includes/ajax.php:1414
+msgid "...or provided URL is not a direct download of ZIP file."
+msgstr "...veya sağlanan URL, ZIP dosyasının doğrudan indirme bağlantısı değil."
+
+#: includes/dashboard/modals/backup-success-modal.php:100
+msgid "Download logs"
+msgstr "Kayıtları indir"
+
+#: includes/dashboard/chapter/other_config.php:464
+msgid "Clean-ups"
+msgstr "Temizlemeler"
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "th"
+msgstr "."
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "rd"
+msgstr "."
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "nd"
+msgstr "."
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "st"
+msgstr "."
+
+#: includes/check/checker.php:48
+msgid "Disk free space function is not disabled - using it..."
+msgstr "Diskte kalan boş yer fonksiyonu devre dışı bırakılmadı - kullanılıyor..."
+
+#: includes/dashboard/modals/backup-success-modal.php:42
+msgid "To migrate your site, just copy above link, install %a1our plugin%a2 on the target site, go to the"
+msgstr "Sitenizi taşımak için, yukarıdaki bağlantıyı kopyalayın, %a1eklentimizi%a2 hedef siteye yükleyin, "
+
+#: includes/ajax.php:1412
+msgid "Manifest file does not exist"
+msgstr "Bildirim dosyası mevcut değil"
+
+#: includes/ajax.php:1409
+msgid "...or the manifest file does not exist in the backup."
+msgstr "...veya bildirim dosyası yedekte mevcut değil."
+
+#: includes/ajax.php:1408
+msgid "Please confirm that you can download the backup file via provided URL."
+msgstr "URL dosyası tarafından sağlanan yedek dosyasının indirilebilir olduğunu teyit ediniz."
+
+#: includes/ajax.php:1405
+msgid "You can find the setting in \"Where shall the backup(s) be stored?\" section."
+msgstr "Ayarları \"Yedekler nerede depolansın?\" kısmında bulabilirsiniz."
+
+#: includes/ajax.php:1381 includes/ajax.php:1388
+msgid "Error: "
+msgstr "Hata:"
+
+#: includes/ajax.php:1366
+msgid "Manifest found remote name: "
+msgstr "Bildirim uzaktan isim buldu:"
+
+#: includes/ajax.php:1358
+msgid "Looking for backup manifest"
+msgstr "Yedekleme bildirimi araştırılıyor"
+
+#: includes/ajax.php:1351
+msgid "Error"
+msgstr "Hata"
+
+#: includes/ajax.php:1349
+msgid "Error: There is not enough space on the server"
+msgstr "Hata: Suncuda yeteri kadar yer yok"
+
+#: includes/ajax.php:1346
+msgid "Download error"
+msgstr "İndirme hatası"
+
+#: includes/ajax.php:1338
+msgid "Downloading remote file..."
+msgstr "Uzak dosya indiriliyor..."
+
+#: includes/ajax.php:1337
+msgid "Downloading initialized"
+msgstr "İndirme başlatıldı"
+
+#: includes/ajax.php:1333
+msgid "Creating lock file"
+msgstr "Kilit dosyası oluşturuldu"
+
+#: includes/ajax.php:1221
+msgid "Initializing restore process..."
+msgstr "Geri yükleme süreci başlatılıyor..."
+
+#: includes/ajax.php:1153
+msgid "Finalizing restored files"
+msgstr "Geri yüklenen dosyalar sonlandırılıyor"
+
+#: includes/ajax.php:1152
+msgid "Restore process completed"
+msgstr "Geri yükleme aşaması tamamlandı"
+
+#: includes/ajax.php:1101
+msgid "Confirmed, there is enough space on the device, checked: "
+msgstr "Onaylandı, cihazda yeterli alan var, kontrol edildi:"
+
+#: includes/ajax.php:1090 includes/ajax.php:1109 includes/ajax.php:1139
+#: includes/ajax.php:1154 includes/ajax.php:1340
+msgid "Unlocking migration"
+msgstr "Taşımayı açıyor"
+
+#: includes/ajax.php:1088
+msgid "Error: There is not enough space on the server, checked: "
+msgstr "Hata: Sunucuda yeterli yer yok, kontrol edildi:"
+
+#: includes/ajax.php:1082
+msgid "Checking if there is enough amount of free space"
+msgstr "Yeterli miktarda boş alanın varlığı kontrol ediliyor"
+
+#: includes/ajax.php:1054
+msgid "Site which will be restored: "
+msgstr "Geri yüklenecek site:"
+
+#: includes/ajax.php:389 includes/ajax.php:1042
+msgid "Initializing restore process"
+msgstr "Geri yükleme süreci başlatılıyor"
+
+#: includes/ajax.php:1038
+msgid "Locking migration process"
+msgstr "Taşıma süreci kilitleniyor"
+
+#: includes/ajax.php:520 includes/ajax.php:797 includes/ajax.php:802
+#: includes/ajax.php:805 includes/dashboard/translations.php:54
+msgid "Backup process aborted."
+msgstr "Yedekleme süreci sonlandırıldı."
+
+#: includes/ajax.php:707
+msgid "Backup initialized..."
+msgstr "Yedekleme başlatıldı..."
+
+#: includes/ajax.php:248 includes/ajax.php:640 includes/ajax.php:671
+#: includes/ajax.php:765 includes/ajax.php:814 includes/initializer.php:407
+msgid "Aborting backup..."
+msgstr "Yedekleme sonlandırılıyor..."
+
+#: includes/ajax.php:636
+msgid "Checking free space, reserving..."
+msgstr "Boş alan kontrol ediliyor, rezerve ediliyor..."
+
+#: includes/ajax.php:626
+msgid "Omitting files (due to settings)..."
+msgstr "Dosyalar atlanıyor (ayarlara bağlı olarak)..."
+
+#: includes/ajax.php:615
+msgid "Yup it is writable..."
+msgstr "Evet yazılabilir..."
+
+#: includes/ajax.php:598 includes/ajax.php:818
+msgid "Path: "
+msgstr "Adres:"
+
+#: includes/ajax.php:575
+msgid "Checking if backup dir is writable..."
+msgstr "Yedek dizini yazılabilir mi diye kontrol ediliyor..."
+
+#: includes/ajax.php:559
+msgid "Site which will be backed up: "
+msgstr "Yedeklenecek site:"
+
+#: includes/ajax.php:382 includes/ajax.php:556
+msgid "Initializing backup..."
+msgstr "Yedekleme başlatılıyor..."
+
+#: includes/ajax.php:372 includes/ajax.php:750 includes/ajax.php:1175
+#: includes/ajax.php:1179
+msgid "Backup process already running, please wait till it complete."
+msgstr "Yedekleme aşaması zaten sürüyor, lütfen bitene kadar bekleyiniz."
+
+#: includes/progress/logger-only.php:34 includes/progress/zip.php:109
+msgid "Unable to open file!"
+msgstr "Dosya açılamıyor!"
+
+#: includes/zipper/src/zip.php:569
+msgid "Closing files and archives"
+msgstr "Dosyalar ve arşivler kapatılıyor"
+
+#: includes/zipper/src/zip.php:343
+msgid "Compressing..."
+msgstr "Sıkıştırılıyor..."
+
+#: includes/dashboard/translations.php:135 includes/zipper/src/zip.php:342
+msgid "Making archive"
+msgstr "Arşivleniyor"
+
+#: includes/zipper/src/zip.php:87
+msgid "There was an error during restore process (extracting)..."
+msgstr "Geri yükleme aşamasında bir hata oluştu (çıkarılıyor)..."
+
+#: includes/zipper/zipping.php:59 includes/zipper/zipping.php:67
+msgid "There was an error during backup..."
+msgstr "Yedekleme aşamasında bir hata oluştu..."
+
+#: includes/zipper/zipping.php:58 includes/zipper/zipping.php:66
+msgid "Reverting backup, removing file..."
+msgstr "Yedekleme eski haline döndürülüyor, dosyalar çıkarılıyor..."
+
+#: includes/zipper/zipping.php:44
+msgid "Starting compression process..."
+msgstr "Sıkıştırma aşaması başlatılıyor..."
+
+#: includes/zipper/zipping.php:43
+msgid "Files prepared."
+msgstr "Dosyalar hazırlandı."
+
+#: includes/zipper/zipping.php:33
+msgid "Preparing map of files..."
+msgstr "Dosyaların haritası hazırlanıyor..."
+
+#: includes/zipper/zipping.php:23
+msgid "Creating backup "
+msgstr "Yedek oluşturuluyor"
+
+#: includes/initializer.php:1004
+msgid "There was an error during getting logs, this file is not right log file."
+msgstr "Kayıtlar alınırken bir hata oluştu, bu dosya doğru kayıt dosyası değil."
+
+#: includes/initializer.php:771
+msgid "Could not make the backup due to internal server error."
+msgstr "Dahili sunucu hatasına bağlı olarak yedekleme yapılamadı."
+
+#: includes/initializer.php:764
+msgid "Automatic backup successed: "
+msgstr "Otomatik yedekleme başarılı:"
+
+#: includes/initializer.php:754
+msgid "Could not make the backup: Backup already running, please wait till it complete."
+msgstr "Yedekleme yapılamadı: Yedekleme zaten yapılmakta, lütfen tamamlanana kadar bekleyiniz."
+
+#: includes/initializer.php:743
+msgid "Automatic backup called at time: "
+msgstr "Şu saatte otomatik yedekleme çağrıldı:"
+
+#: includes/initializer.php:616 includes/initializer.php:621
+msgid "Couldn't send notification via email due to error, please check plugin logs for more details."
+msgstr "Hataya bağlı olarak e-posta ile bildirim gönderemedi, lütfen daha fazla detay için eklenti kayıtlarını kontrol ediniz."
+
+#: includes/initializer.php:604
+msgid "Sent email notification to: "
+msgstr "Şuraya e-posta bildirimi gönder:"
+
+#: includes/initializer.php:599
+msgid "Could not send the email notification about that fail"
+msgstr "Bu durum ile ilgili e-posta bildirimi gönderilemedi"
+
+#: includes/initializer.php:565
+msgid "Automatic backup failed at time: "
+msgstr "Otomatik yedekleme şu saatte başarısız oldu:"
+
+#: includes/initializer.php:515
+msgid "Message you missed because of this: "
+msgstr "Bunun yüzünden göremediğiniz mesaj:"
+
+#: includes/initializer.php:510
+msgid "(server time)"
+msgstr "(sunucu zamanı)"
+
+#: includes/initializer.php:480
+msgid "There was an error during automated backup, please"
+msgstr "Otomatik yedekleme esnasında bir hata oluştu, lütfen"
+
+#: includes/initializer.php:449
+msgid "Manage"
+msgstr "Yönet"
+
+#. Author URI of the plugin
+msgid "https://backupbliss.com/"
+msgstr "https://backupbliss.com/"
+
+#. Author of the plugin
+msgid "Migrate"
+msgstr "Taşı"
+
+#. Description of the plugin
+msgid "Most sophisticated backup & migration plugin for WordPress"
+msgstr "WordPress için en sofistike yedekleme ve taşıma eklentisi"
+
+#. Plugin URI of the plugin
+msgid "https://backupbliss.com"
+msgstr "https://backupbliss.com"
+
+#: includes/initializer.php:508
+msgid "Automatic backup was not on time because there was no traffic on the site."
+msgstr "Otomatik yedekleme zamanında yapılmadı çünkü sitede hiç trafik yoktu."
+
+#: includes/initializer.php:509
+msgid "Backup was made on: "
+msgstr "Yedekleme şu tarihte yapıldı:"
+
+#: includes/initializer.php:509
+msgid ", but should be on: "
+msgstr ", fakat şu tarihte yapılmalıydı:"
+
+#: includes/initializer.php:514
+msgid "Couldn't send mail to you, please check server configuration."
+msgstr "Size e-posta gönderemedik, lütfen sunucu yapılandırmanızı kontrol ediniz."
+
+#: includes/initializer.php:576
+msgid "There was an error during automatic backup, please check the logs."
+msgstr "Otomatik yedekleme esnasında bir hata oluştu, lütfen kayıtları kontrol ediniz."
+
+#: includes/initializer.php:609
+msgid "Couldn't send notification via email, please check the email and your server settings."
+msgstr "E-posta ile bildirim gönderilemedi, lütfen e-posta ve sunucu ayarlarınızı kontrol ediniz."
+
+#: includes/initializer.php:1043 includes/initializer.php:1064
+#: includes/initializer.php:1090
+msgid "Human readable: file expired."
+msgstr "Human readable: dosya süre aşımına uğradı."
+
+#: includes/initializer.php:1142
+msgid "Unknow AJAX Sanitize Type: "
+msgstr "Bilinmeyen AJAX Sanitize Type'ı:"
+
+#: includes/zipper/zipping.php:24
+msgid "Found "
+msgstr "Yedeklenecek dosyalar"
+
+#: includes/zipper/zipping.php:24
+msgid " files to backup."
+msgstr "bulundu."
+
+#: includes/zipper/src/zip.php:77
+msgid "There was an error during backup (packing)..."
+msgstr "Yedekleme esnasında bir hata oluştu (sıkıştırılıyor)..."
+
+#: includes/zipper/src/zip.php:91
+msgid "Issues during restore process (extracting)..."
+msgstr "Geri yükleme aşamasında sorun yaşandı (çıkarılıyor)..."
+
+#: includes/zipper/src/zip.php:188 includes/zipper/src/zip.php:761
+msgid "Smart memory calculation..."
+msgstr "Akıllı hafıza hesaplaması..."
+
+#: includes/zipper/src/zip.php:209 includes/zipper/src/zip.php:785
+msgid "Setting the safe limit to %s MB"
+msgstr "Güvenli limit %s MB'a ayarlanıyor"
+
+#: includes/zipper/src/zip.php:154
+msgid "Iterating database..."
+msgstr "Veritabanı yineleniyor..."
+
+#: includes/zipper/src/zip.php:172
+msgid "Omitting database backup (due to settings)..."
+msgstr "Veritabanı yedeklemesi atlanıyor (ayarlara bağlı olarak)..."
+
+#: includes/zipper/src/zip.php:535 includes/zipper/src/zip.php:561
+msgid "Milestone: "
+msgstr "Mihenk taşı:"
+
+#: includes/zipper/src/zip.php:562
+msgid "Compressed "
+msgstr "Dosyalar"
+
+#: includes/ajax.php:325 includes/extracter/extract.php:306
+#: includes/zipper/src/zip.php:562
+msgid " files"
+msgstr "sıkıştırıldı"
+
+#: includes/zipper/src/zip.php:565
+msgid "Archiving of "
+msgstr "Dosyaların arşivlenmesi"
+
+#: includes/zipper/src/zip.php:565
+msgid " files took: "
+msgstr "şu kadar sürdü:"
+
+#: includes/zipper/src/zip.php:567
+msgid "Finalizing backup"
+msgstr "Yedekleme tamamlanıyor"
+
+#: includes/zipper/src/zip.php:568
+msgid "Adding manifest..."
+msgstr "Tanımlama ekleniyor..."
+
+#: includes/ajax.php:597
+msgid "Backup directory is not writable..."
+msgstr "Yedek dizini yazılabilir değil..."
+
+#: includes/ajax.php:622
+msgid "Scanning files..."
+msgstr "Dosyalar taranıyor..."
+
+#: includes/ajax.php:641
+msgid "Site weights more than %s GB."
+msgstr "Site %s GB'tan fazla."
+
+#: includes/ajax.php:672
+msgid "There is no space for that backup, checked: "
+msgstr "Bu yedek için hiç alan yok, kontrol edilen miktar:"
+
+#: includes/ajax.php:672 includes/ajax.php:689
+msgid " bytes"
+msgstr "bayttır"
+
+#: includes/ajax.php:703
+msgid "Scanning done - found "
+msgstr "Tarama yapıldı - dosyalar"
+
+#: includes/ajax.php:703
+msgid " files..."
+msgstr "bulundu..."
+
+#: includes/ajax.php:708
+msgid "Initializing archiving system..."
+msgstr "Arşivleme sistemi başlatılıyor..."
+
+#: includes/ajax.php:754
+msgid "Archive system initialized..."
+msgstr "Arşiv sistemi başlatıldı..."
+
+#: includes/ajax.php:816
+msgid "We could not find backup file when it already should be here."
+msgstr "Burada olması gerekmesine rağmen yedekleme dosyasını bulamadık."
+
+#: includes/ajax.php:817
+msgid "This error may be related to missing space. (filled during backup)"
+msgstr "Bu hata eksik alan ile ilgili olabilir. (yedekleme aşamasında doldurulmuş olan)"
+
+#: includes/ajax.php:1283
+msgid "Download process is currently running, please wait till it complete."
+msgstr "İndirme işlemi şu anda yapılıyor, lütfen tamamlanana kadar bekleyiniz."
+
+#: includes/ajax.php:1034
+msgid "Restore process responded"
+msgstr "Geri yükleme işlemi yanıt verdi"
+
+#: includes/ajax.php:1081
+msgid "Free space checking..."
+msgstr "Boş alan kontrol ediliyor..."
+
+#: includes/initializer.php:481
+msgid "check that."
+msgstr "bunu kontrol edin."
+
+#: includes/initializer.php:650
+msgid "Removing backup due to keep rules: "
+msgstr "Saklama kurallarına bağlı olarak yedekleme kaldırılıyor:"
+
+#: includes/initializer.php:962
+msgid "Backup download is restricted (allowed for admins only)."
+msgstr "Yedekleme indirimi kısıtlanmıştır (sadece site yöneticilerine izin var)."
+
+#: includes/initializer.php:1042 includes/initializer.php:1063
+#: includes/initializer.php:1089
+msgid "Due to security reasons access to this file is disabled at this moment."
+msgstr "Güvenlik sebebiyle bu dosyaya erişim şu anda engellidir."
+
+#: includes/zipper/src/zip.php:81
+msgid "Issues during backup (packing)..."
+msgstr "Yedekleme aşamasında sorunlar yaşandı (sıkıştırılıyor)..."
+
+#: includes/zipper/src/zip.php:197 includes/zipper/src/zip.php:770
+msgid "There is %s MBs of memory to use"
+msgstr "Kullanım için %s MB hafıza kaldı"
+
+#: includes/ajax.php:1410
+msgid "Missing manifest means that the backup is probably invalid."
+msgstr "Eksik bildirim yedeğin geçersiz olduğunun bir göstergesi olabilir."
+
+#: includes/ajax.php:1407
+msgid "Backup does not exist under provided URL."
+msgstr "Yedekleme, verilen URL'de mevcut değil."
+
+#: includes/ajax.php:1404
+msgid "Backup is locked on remote site, please unlock remote downloading."
+msgstr "Yedekleme uzak sitede kilitlenmiştir, lütfen uzaktan indirmeyi açın. "
+
+#: includes/ajax.php:1402
+msgid "It is restricted by remote server configuration."
+msgstr "Uzaktan sunucu yapılandırması tarafından kısıtlanmıştır."
+
+#: includes/ajax.php:1401
+msgid "Backup is not available to download (Error 403)."
+msgstr "Yedekleme indirmek için mevcut değil (Hata 403)."
+
+#: includes/ajax.php:1374
+msgid "Requesting restore process"
+msgstr "Geri yükleme işlemi talep ediliyor"
+
+#: includes/ajax.php:1357
+msgid "Download completed (took: "
+msgstr "İndirme tamamlandı (şu kadar sürdü:"
+
+#: includes/ajax.php:1344 includes/ajax.php:1382 includes/ajax.php:1389
+#: includes/ajax.php:1415
+msgid "Removing downloaded file"
+msgstr "İndirilen dosya kaldırılıyor"
+
+#: includes/ajax.php:1335
+msgid "Initializing download process"
+msgstr "İndirme işlemi başlatılıyor"
+
+#: includes/ajax.php:1187
+msgid "Backup process completed or is not running."
+msgstr "Yedekleme aşaması tamamlandı veya çalışmıyor."
+
+#: includes/ajax.php:1107
+msgid "Error: Btw. because of this I also cannot check free space"
+msgstr "Hata: Bu arada bunun yüzünden aynı zamanda boş alanı kontrol edemedim"
+
+#: includes/ajax.php:1106
+msgid "Error: Could not find manifest in backup, file may be broken"
+msgstr "Hata: Yedeklemede bildirimi bulamadım, dosya bozuk olabilir"
+
+#: includes/ajax.php:1089 includes/ajax.php:1108 includes/ajax.php:1138
+msgid "Aborting..."
+msgstr "Sonlandırılıyor..."
+
+#: includes/ajax.php:1087 includes/ajax.php:1105
+msgid "Cannot start migration process"
+msgstr "Taşıma süreci başlatılamıyor"
+
+#: includes/ajax.php:837 includes/ajax.php:849
+msgid "New backup created and its name is: "
+msgstr "Yeni yedekleme oluşturuldu ve ismi:"
+
+#: includes/ajax.php:815
+msgid "There is no backup file..."
+msgstr "Yedekleme dosyası yok..."
+
+#: includes/ajax.php:689
+msgid "Confirmed, there is more than enough space, checked: "
+msgstr "Yeterince alan olduğu teyit edildi, kontrol edilenler:"
+
+#: includes/ajax.php:557 includes/ajax.php:1043
+msgid "Backup & Migration version: "
+msgstr "Yedekleme ve Taşıma sürümü:"
+
+#: includes/ajax.php:39
+msgid "Running POST Function: "
+msgstr "POST Fonksiyonu çalıştırılıyor:"
+
+#: includes/zipper/src/zip.php:165
+msgid "Database backup finished"
+msgstr "Veritabanı yedeklemesi tamamlandı"

@@ -1,0 +1,364 @@
+[2023-01-10 17:46:18] [LOG] Eklenti etkinleştirildi
+[2023-01-10 17:47:39] [ERROR] Kapatıldı
+[2023-01-10 17:47:39] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:47:39] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:47:39] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:47:39] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:47:52] [LOG] Yedek oluşturuluyor
+[2023-01-10 17:47:52] [LOG] Yedeklenecek dosyalar10327bulundu.
+[2023-01-10 17:48:43] [ERROR] Kapatıldı
+[2023-01-10 17:48:43] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:48:43] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:48:43] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:48:43] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:49:35] [LOG] Yeni yedekleme oluşturuldu ve ismi:BM_Backup_2023-01-10_17_47_50_JwmVTRQY6j1csCZy.zip
+[2023-01-10 17:49:42] [ERROR] Kapatıldı
+[2023-01-10 17:49:42] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:49:42] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:49:42] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:49:42] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:50:42] [ERROR] Kapatıldı
+[2023-01-10 17:50:42] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:50:42] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:50:42] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:50:42] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:51:43] [ERROR] Kapatıldı
+[2023-01-10 17:51:43] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:51:43] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:51:43] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:51:43] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:52:48] [ERROR] Kapatıldı
+[2023-01-10 17:52:48] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:52:48] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:52:48] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:52:48] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:53:42] [ERROR] Kapatıldı
+[2023-01-10 17:53:42] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:53:42] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:53:42] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:53:42] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:54:41] [ERROR] Kapatıldı
+[2023-01-10 17:54:41] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:54:41] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:54:41] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:54:41] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:55:43] [ERROR] Kapatıldı
+[2023-01-10 17:55:43] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:55:43] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:55:43] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:55:43] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:56:40] [ERROR] Kapatıldı
+[2023-01-10 17:56:40] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:56:40] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:56:40] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:56:40] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:57:06] [ERROR] Kapatıldı
+[2023-01-10 17:57:06] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:57:06] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:57:06] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:57:06] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:57:37] [ERROR] Kapatıldı
+[2023-01-10 17:57:37] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:57:37] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:57:37] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:57:37] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:58:41] [ERROR] Kapatıldı
+[2023-01-10 17:58:41] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:58:41] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:58:41] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:58:41] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 17:59:40] [ERROR] Kapatıldı
+[2023-01-10 17:59:40] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 17:59:40] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 17:59:40] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 17:59:40] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:00:44] [ERROR] Kapatıldı
+[2023-01-10 18:00:44] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:00:44] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:00:44] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:00:44] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:01:40] [ERROR] Kapatıldı
+[2023-01-10 18:01:40] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:01:40] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:01:40] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:01:40] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:02:40] [ERROR] Kapatıldı
+[2023-01-10 18:02:40] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:02:40] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:02:40] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:02:40] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:03:42] [ERROR] Kapatıldı
+[2023-01-10 18:03:42] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:03:42] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:03:42] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:03:42] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:04:38] [ERROR] Kapatıldı
+[2023-01-10 18:04:38] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:04:38] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:04:38] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:04:38] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:05:42] [ERROR] Kapatıldı
+[2023-01-10 18:05:42] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:05:42] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:05:42] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:05:42] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:06:40] [ERROR] Kapatıldı
+[2023-01-10 18:06:40] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:06:40] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:06:40] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:06:40] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:07:38] [ERROR] Kapatıldı
+[2023-01-10 18:07:38] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:07:38] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:07:38] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:07:38] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:08:41] [ERROR] Kapatıldı
+[2023-01-10 18:08:41] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:08:41] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:08:41] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:08:41] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:09:40] [ERROR] Kapatıldı
+[2023-01-10 18:09:40] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:09:40] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:09:40] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:09:40] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:10:41] [ERROR] Kapatıldı
+[2023-01-10 18:10:41] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:10:41] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:10:41] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:10:41] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:11:41] [ERROR] Kapatıldı
+[2023-01-10 18:11:41] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:11:41] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:11:41] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:11:41] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:12:43] [ERROR] Kapatıldı
+[2023-01-10 18:12:43] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:12:43] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:12:43] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:12:43] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:13:41] [ERROR] Kapatıldı
+[2023-01-10 18:13:41] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:13:41] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:13:41] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:13:41] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:13:50] [ERROR] Kapatıldı
+[2023-01-10 18:13:50] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:13:50] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:13:50] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:13:50] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91
+[2023-01-10 18:14:42] [ERROR] Kapatıldı
+[2023-01-10 18:14:42] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+    [file] => C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php
+    [line] => 91
+)
+
+[2023-01-10 18:14:42] [ERROR] Kapama talep edilmeden önce bir hata vardı (fakat sistem onarım günlüğüne girilmedi)
+[2023-01-10 18:14:42] [ERROR] Hata mesajı:Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+[2023-01-10 18:14:42] [ERROR] Hata dosyası/sırası:C:\xampp\htdocs\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php|91

@@ -1,0 +1,4 @@
+2023-01-25T13:09:05+00:00 CRITICAL C:\xampp\htdocs\wp-includes\class-wpdb.php dosyasında 2187 numaralı satırda Maximum execution time of 120 seconds exceeded
+
+2023-01-25T13:11:01+00:00 CRITICAL C:\xampp\htdocs\wp-admin\includes\class-wp-site-health-auto-updates.php dosyasında 364 numaralı satırda Maximum execution time of 120 seconds exceeded
+
